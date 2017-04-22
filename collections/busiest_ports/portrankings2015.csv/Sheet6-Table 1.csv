@@ -1,0 +1,252 @@
+,,,,,,,,Port,Country,2014
+1,,,2014,,,,,,,
+2,Shanghai,China,"35,286",0.001,"2,913",,,Shanghai,China,"35,286"
+3,Singapore,Singapore,"33,869",0.001,24,,,Singapore,Singapore,"33,869"
+4,Shenzhen,China,"23,798",0.001,618,,,Shenzhen,China,"23,798"
+5,Hong Kong,China,"22,374",0.001,140,,,Hong Kong,China,"22,374"
+6,Ningbo,China,"19,450",0.001,10,,,Ningbo,China,"19,450"
+7,Busan,South Korea,"18,423",0.001,997,,,Busan,South Korea,"18,423"
+8,Qingdao,China,"16,624",0.001,"2,369",,,Qingdao,China,"16,624"
+9,Guangzhou,China,"16,160",0.001,34,,,Guangzhou,China,"16,160"
+10,Dubai Ports,United Arab Emirates,"14,750",0.001,0,,,Dubai Ports,United Arab Emirates,"14,750"
+11,Tianjin,China,"14,050",0.001,584,,,Tianjin,China,"14,050"
+12,Rotterdam,Netherlands,"12,453",0.001,161,,,Rotterdam,Netherlands,"12,453"
+13,Port Kelang,Malaysia,"10,736",0.001,23,,,Port Kelang,Malaysia,"10,736"
+14,Kaohsiung,Taiwan,"10,593",0.001,0,,,Kaohsiung,Taiwan,"10,593"
+15,Dalian,China,"10,128",0.001,39,,,Dalian,China,"10,128"
+16,Hamburg,Germany,"9,729",0.001,"1,130",,,Hamburg,Germany,"9,729"
+17,Antwerp,Belgium,"9,136",0.001,97,,,Antwerp,Belgium,"9,136"
+18,Xiamen,China,"8,572",0.001,100,,,Xiamen,China,"8,572"
+19,Los Angeles,United States,"8,340",0.001,9,,,Tanjung Pelepas,Malasyia,"7,897"
+20,Tanjung Pelepas,Malasyia,"7,897",0.001,2,,,Laem Chabang,Thailand,"6,518"
+21,Long Beach,United States,"6,821",0.001,2,,,Saigon Port Co. LTD,Viet Nam,"6,334"
+22,Laem Chabang,Thailand,"6,518",0.001,76,,,Bremen Ports,Germany,"5,796"
+23,Saigon Port Co. LTD,Viet Nam,"6,334",0.001,"6,821",,,Yingkou,China,"5,768"
+24,Bremen Ports,Germany,"5,796",0.001,0,,,Tanjung Priok,Indonesia,"5,034"
+25,New York/New Jersey,United States,"5,772",0.001,"8,340",,,Lianyungang,China,"5,005"
+26,Yingkou,China,"5,768",0.001,48,,,Tokyo,Japan,"4,917"
+27,Tanjung Priok,Indonesia,"5,034",0.001,"2,394",,,Saigon New Port,Viet Nam,"4,750"
+28,Lianyungang,China,"5,005",0.001,0,,,Jawaharlal Nehru,India,"4,496"
+29,Tokyo,Japan,"4,917",0.001,165,,,Algeciras - La Linea,Spain,"4,457"
+30,Saigon New Port,Viet Nam,"4,750",0.001,0,,,Valencia,Spain,"4,442"
+31,Jawaharlal Nehru,India,"4,496",0.001,109,,,Khor Fakkan,United Arab Emirates,"4,256"
+32,Algeciras - La Linea,Spain,"4,457",0.001,0,,,Jeddah,Saudi Arabia,"4,200"
+33,Valencia,Spain,"4,442",0.001,"3,456",,,Colombo,Sri Lanka,"4,097"
+34,Khor Fakkan,United Arab Emirates,"4,256",0.001,8,,,Santos,Brazil,"3,685"
+35,Jeddah,Saudi Arabia,"4,200",0.001,1,,,Felixstowe,UK,"3,680"
+36,Colombo,Sri Lanka,"4,097",0.001,400,,,Manila,Philippines,"3,673"
+37,Santos,Brazil,"3,685",0.001,0,,,Ambarli,Turkey,"3,445"
+38,Santos,Brazil,"3,685",0.001,"1,402",,,Tanger,Morocco,"3,354"
+39,Felixstowe,UK,"3,680",0.001,90,,,Balboa,Panama,"3,236"
+40,Manila,Philippines,"3,673",0.001,3,,,Gioia Tauro,Italy,"3,062"
+41,Seattle/Tacoma Seaport Alliance,United States,"3,456",0.001,770,,,East Port Said Port,Egypt,"3,036"
+42,Ambarli,Turkey,"3,445",0.001,214,,,Mina Raysut (Salalah),Oman,"3,030"
+43,Tanger,Morocco,"3,354",0.001,0,,,Keelung,Taiwan,"2,943"
+44,Savannah,United States,"3,346",0.001,0,,,Marsaxlokk,Malta,"2,869"
+45,Balboa,Panama,"3,236",0.001,0,,,Yokohama,Japan,"2,775"
+46,Balboa,Panama,"3,236",0.001,"1,792",,,Port,Country,"2,014"
+47,Gioia Tauro,Italy,"3,062",0.001,0,,,Nagoya,Japan,"2,740"
+48,East Port Said Port,Egypt,"3,036",0.001,9,,,Bandar Abbas,Iran,"2,691"
+49,Mina Raysut (Salalah),Oman,"3,030",0.001,0,,,Durban,South Africa,"2,664"
+50,Keelung,Taiwan,"2,943",0.001,"2,393",,,Kobe,Japan,"2,628"
+51,Metro Port Vancouver ,Canada,"2,913",0.001,937,,,Le Havre,France,"2,554"
+52,Marsaxlokk,Malta,"2,869",0.001,877,,,Melbourne,Australia,"2,554"
+53,Yokohama,Japan,"2,775",0.001,"5,772",,,St. Petersburg,Russia,"2,375"
+54,Nagoya,Japan,"2,740",0.001,263,,,Yantai,China,"2,361"
+55,Bandar Abbas,Iran,"2,691",0.001,449,,,Rizhao,China,"2,349"
+56,Durban,South Africa,"2,664",0.001,0,,,Kwangyang,South Korea,"2,318"
+57,Kobe,Japan,"2,628",0.001,"1,013",,,Inchon,South Korea,"2,290"
+58,Colon,Panama,"2,564",0.001,12,,,Sydney Ports,Australia,"2,247"
+59,Le Havre,France,"2,554",0.001,0,,,Fuzhou,China,"2,237"
+60,Melbourne,Australia,"2,554",0.001,0,,,Cartagena,Colombia,"2,211"
+61,Oakland,United States,"2,394",0.001,"1,320",,,Genoa,Italy,"2,173"
+62,Hampton Roads,United States,"2,393",0.001,"3,346",,,Osaka,Japan,"2,161"
+63,Cartagena ,Colombia,"2,386",0.001,334,,,Dublin,Ireland,"2,153"
+64,St. Petersburg,Russia,"2,375",0.001,279,,,Zeebrugge,Belgium,"2,047"
+65,Manzanillo,Mexico,"2,369",0.001,599,,,Callao,Peru,"1,992"
+66,Yantai,China,"2,361",0.001,1,,,Barcelona,Spain,"1,894"
+67,Rizhao,China,"2,349",0.001,0,,,Southampton,UK,"1,662"
+68,Kwangyang,South Korea,"2,318",0.001,66,,,Dammam,Saudi Arabia,"1,655"
+69,Inchon,South Korea,"2,290",0.001,10,,,Chittagong,Bangladesh,"1,629"
+70,Sydney Ports,Australia,"2,247",0.001,0,,,Karachi,Pakistan,"1,591"
+71,Fuzhou,China,"2,237",0.001,0,,,Madras,India,"1,552"
+72,Cartagena,Colombia,"2,211",0.001,0,,,Bangkok,Thailand,"1,536"
+73,Genoa,Italy,"2,173",0.001,847,,,Alexandria and El-Dekheila,Egypt,"1,520"
+74,Osaka,Japan,"2,161",0.001,7,,,Taichung,Taiwan,"1,514"
+75,Dublin,Ireland,"2,153",0.001,0,,,Icel (Mersin),Turkey,"1,484"
+76,Zeebrugge,Belgium,"2,047",0.001,0,,,Montreal,Canada,"1,402"
+77,Port,Country,"2,014",0.001,92,,,San Juan,Puerto Rico,"1,320"
+78,Callao,Peru,"1,992",0.001,0,,,La Spezia,Italy,"1,301"
+79,Houston,United States,"1,951",0.001,0,,,Penang,Malaysia,"1,266"
+80,Barcelona,Spain,"1,894",0.001,188,,,Ashdod,Israel,"1,250"
+81,Charleston,United States,"1,792",0.001,"1,951",,,Beirut,Lebanon,"1,225"
+82,Southampton,United Kingdom,"1,662",0.001,0,,,Gdansk,Poland,"1,212"
+83,Dammam,Saudi Arabia,"1,655",0.001,14,,,Haifa,Israel,"1,196"
+84,Chittagong,Bangladesh,"1,629",0.001,238,,,Marseilles,France,"1,180"
+85,Guayaquil ,Ecuador,"1,621",0.001,491,,,Brisbane,Australia,"1,108"
+86,Kingston,Jamaica,"1,607",0.001,37,,,Itajai,Brazil,"1,090"
+87,Karachi,Pakistan,"1,591",0.001,0,,,,,
+88,Madras,India,"1,552",0.001,0,,,,,
+89,Bangkok,Thailand,"1,536",0.001,0,,,,,
+90,Alexandria and El-Dekheila,Egypt,"1,520",0.001,47,,,,,
+91,Taichung,Taiwan,"1,514",0.001,0,,,,,
+92,Icel (Mersin),Turkey,"1,484",0.001,0,,,,,
+93,Montreal,Canada,"1,402",0.001,25,,,,,
+94,Buenos Aires,Argentina,"1,401",0.001,0,,,,,
+95,San Juan,Puerto Rico,"1,320",0.001,463,,,,,
+96,La Spezia,Italy,"1,301",0.001,89,,,,,
+97,Penang,Malaysia,"1,266",0.001,41,,,,,
+98,Ashdod,Israel,"1,250",0.001,243,,,,,
+99,Beirut,Lebanon,"1,225",0.001,371,,,,,
+100,Gdansk,Poland,"1,212",0.001,19,,,,,
+101,Haifa,Israel,"1,196",0.001,1,,,,,
+102,Marseilles,France,"1,180",0.001,31,,,,,
+103,Honolulu (FY),United States,"1,130",0.001,757,,,,,
+104,Brisbane,Australia,"1,108",0.001,195,,,,,
+105,Itajai,Brazil,"1,090",0.001,9,,,,,
+106, Limon/Moin,Costa Rica," 	1,090 ",0.001,677,,,,,
+107,San Antonio,Chile," 	1,089 ",0.001,1,,,,,
+108,Port Everglades (FY),United States,"1,013",0.001,412,,,,,
+109,Valparaiso,Chile," 	1,013 ",0.001,679,,,,,
+110,Lazaro Cardenas,Mexico,997,0.001,274,,,,,
+111,Jacksonville (a) (FY),United States,937,0.001,1,,,,,
+112,Caucedo,Dominican Republic,915,0.001,"3,685",,,,,
+113,Miami (FY),United States,877,0.001,93,,,,,
+114,Veracruz,Mexico,847,0.001,0,,,,,
+115,Baltimore,United States,770,0.001,413,,,,,
+116,Montevideo,Uruguay,763,0.001,176,,,,,
+117,Paranagua,Brazil,757,0.001,68,,,,,
+118,Cristobal,Panama,713,0.001,247,,,,,
+119,Rio Grande,Brazil,679,0.001,82,,,,,
+120,Portonave/Navagantes,Brazil,677,0.001,218,,,,,
+121,Buenaventura,Colombia,667,0.001,3,,,,,
+122,Prince Rupert,Canada,618,0.001,522,,,,,
+123,Altamira,Mexico,599,0.001,241,,,,,
+124,Anchorage(pre-2013 excludes empties),United States,584,0.001,106,,,,,
+125,Puerto Cortes,Honduras,577,0.001,"1,089",,,,,
+126,Puerto Cabello,Venezuela,542,0.001,476,,,,,
+127,Santo Tomas de Castilla,Guatemala,526,0.001,"1,013",,,,,
+128,Coronel,Chile, 	522 ,0.001,667,,,,,
+129,New Orleans (a),United States,491,0.001,"2,386",,,,,
+130,San Vicente,Chile, 	476 ,0.001,159,,,,,
+131,Chibatão,Brazil,463,0.001,"1,090",,,,,
+132,Philadelphia,United States,449,0.001,226,,,,,
+133,Suape,Brazil,413,0.001,4,,,,,
+134,Rio de Janeiro,Brazil,412,0.001,915,,,,,
+135,Puerto Barrios,Guatemala,400,0.001,303,,,,,
+136,Halifax,Canada,400,0.001,40,,,,,
+137,Itajai,Brazil,371,0.001,6,,,,,
+138,Puerto Quetzal,Guatemala,358,0.001,39,,,,,
+139,Wilmington(DE),United States,334,0.001,102,,,,,
+140,Haina,Dominican Republic,303,0.001,"1,621",,,,,
+141,La Guaira,Venezuela,287,0.001,49,,,,,
+142,Wilmington(NC),United States,279,0.001,98,,,,,
+143,Salvador,Brazil,274,0.001,577,,,,,
+144,Palm Beach (FY),United States,263,0.001,7,,,,,
+145,Vitoria,Brazil,247,0.001,400,,,,,
+146,Itaguai/Sepetiba,Brazil,243,0.001,358,,,,,
+147,Iquique,Chile, 	241 ,0.001,526,,,,,
+148,Mobile (b),United States,238,0.001,"3,236",,,,,
+149,PSA - Panama Int'l Terminals,Panama,232,0.001,"2,564",,,,,
+150,Caldera,Costa Rica, 	226 ,0.001,713,,,,,
+151,Arica,Chile, 	218 ,0.001,232,,,,,
+152,Boston,United States,214,0.001,1,,,,,
+153,Paita,Peru,205,0.001,"1,992",,,,,
+154,Pecem,Brazil,195,0.001,3,,,,,
+155,Gulfport,United States,188,0.001,0,,,,,
+156,Superterminais/Manaus,Brazil,176,0.001,205,,,,,
+157,Portland(OR),United States,165,0.001,21,,,,,
+158,Apra (GUAM),United States,161,0.001,0,,,,,
+159,Santa Marta ,Colombia,159,0.001,0,,,,,
+160,Ensenada,Mexico,140,0,763,,,,,
+161,Zarate,Argentina,129,0.001,287,,,,,
+162,San Diego,United States,109,0.001,57,,,,,
+163,Lirquen,Chile, 	106 ,0.001,542,,,,,
+164,Esmeraldas,Ecuador,102,0.001,"1,401",,,,,
+165,Kahului (FY),United States,100,0.001,129,,,,,
+166,Puerto Castillo,Honduras,98,0.001,64,,,,,
+167,Hueneme,United States,97,0.001,"1,607",,,,,
+168,Sao Francisco do Sul,Brazil,93,,,,,,,
+169,Freeport,United States,92,,,,,,,
+170,Saint John,Canada,90,,,,,,,
+171,Fortaleza,Brazil,89,,,,,,,
+172,Antofagasta,Chile, 	82 ,,,,,,,
+173,Kawaihae (FY),United States,76,,,,,,,
+174,Vila do Conde,Brazil,68,,,,,,,
+175,Progreso,Mexico,66,,,,,,,
+176,Ushuaia,Argentina,64,,,,,,,
+177,Maracaibo,Venezuela,57,,,,,,,
+178,Puerto Bolivar,Ecuador,49,,,,,,,
+179,Nawiliwili (FY),United States,48,,,,,,,
+180,Tampa ,United States,47,,,,,,,
+181,Imbituba,Brazil,41,,,,,,,
+182,Santo Domingo (I. T. S. S.),Dominican Republic,40,,,,,,,
+183,Hilo (FY),United States,39,,,,,,,
+184,Puerto Plata,Dominican Republic,39,,,,,,,
+185,Panama City,United States,37,,,,,,,
+186,Mazatlan,Mexico,34,,,,,,,
+187,Natal,Brazil,31,,,,,,,
+188,Belem,Brazil,25,,,,,,,
+189,Nanaimo,Canada,24,,,,,,,
+190,Everett,United States,23,,,,,,,
+191,Matarani,Peru,21,,,,,,,
+192,Itaqui,Brazil,19,,,,,,,
+193,Manatee,United States,14,,,,,,,
+194,Portland(ME),United States,12,,,,,,,
+195,Puerto Morelos,Mexico,10,,,,,,,
+196,Guaymas,Mexico,10,,,,,,,
+197,Porto Velho,Brazil,9,,,,,,,
+198,Fernandina,United States,9,,,,,,,
+199,Kalaeloa Barbers Point (fy),United States,9,,,,,,,
+200,Stockton,United States,8,,,,,,,
+201,Beaumont,United States,7,,,,,,,
+202,San Lorenzo,Honduras,7,,,,,,,
+203,Manzanillo,Dominican Republic,6,,,,,,,
+204,Boca Chica,Dominican Republic,4,,,,,,,
+205,Chacabuco,Chile, 	3 ,,,,,,,
+206,Toronto,Canada,3,,,,,,,
+207,Ilo,Peru,3,,,,,,,
+208,Kaumalapau (HI) (fy),United States,2,,,,,,,
+209,Kaunakakai (FY),United States,2,,,,,,,
+210,Arica,Peru,1,,,,,,,
+211,Macapa,Brazil,1,,,,,,,
+212,Recife,Brazil,1,,,,,,,
+213,Vancouver(WA),United States,1,,,,,,,
+214,Santarem,Brazil,1,,,,,,,
+215,Coatzacoalcos,Mexico,1,,,,,,,
+216,Lake Charles,United States,0,,,,,,,
+217,Salaverry,Peru,0,,,,,,,
+218,Canaveral,United States,0,,,,,,,
+219,Greater Baton Rouge,United States,0,,,,,,,
+220,Sao Sebastiao,Brazil,0,,,,,,,
+221,Tampico,Mexico,0,,,,,,,
+222,Salina Cruz,Mexico,0,,,,,,,
+223,Dos Bocas,Mexico,0,,,,,,,
+224,Hamilton,Canada,0,,,,,,,
+225,Tuxpan,Mexico,0,,,,,,,
+226,Iquitos,Peru,0,,,,,,,
+227,Yurimaguas,Peru,0,,,,,,,
+228,Grays Harbor,United States,0,,,,,,,
+229,Longview,United States,0,,,,,,,
+230,Olympia,United States,0,,,,,,,
+231,Richmond(CA),United States,0,,,,,,,
+232,San Francisco,United States,0,,,,,,,
+233,Brunswick(GA),United States,0,,,,,,,
+234,Camden ,United States,0,,,,,,,
+235,Eastport (ME),United States,0,,,,,,,
+236,Fort Pierce (fy),United States,0,,,,,,,
+237,Ponce,United States,0,,,,,,,
+238,Portsmouth (NH),United States,0,,,,,,,
+239,Richmond(VA),United States,0,,,,,,,
+240,Seybaplaya,Mexico,0,,,,,,,
+241,Brownville (TX),United States,0,,,,,,,
+242,Corpus Christi,United States,0,,,,,,,
+243,Galveston,United States,0,,,,,,,
+244,Pensacola,United States,0,,,,,,,
+245,Port Arthur,United States,0,,,,,,,
+246,Saint Bernard,United States,0,,,,,,,
+247,Angra dos Reis,Brazil,0,,,,,,,
+248,"B, do Riacho",Brazil,0,,,,,,,
+249,Belmonte,Brazil,0,,,,,,,
+250,,,,,,,,,,
+251,,,,,,,,,,

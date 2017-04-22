@@ -1,0 +1,130 @@
+1,Shanghai,China,"36,516",,,,Los Angeles,United States,"8,160",0.001,"8,160",,,,,,Period
+1.99531926167977,Singapore,Singapore,"30,922",,,,Long Beach,United States,"7,192",0.001,"7,192",,,,,,
+2.99063852335953,Shenzhen,China,"24,142",,,,New York/New Jersey,United States,"6,372",0.001,"6,372",,,,,,CY
+3.9859577850393,Ningbo,China,"20,636",,,,Savannah,United States,"3,737",0.001,"3,737",,,,,,CY
+4.98127704671906,Hong Kong,China,"20,073",,,,Seattle/Tacoma Alliance,United States,"3,529",0.001,"3,529",,,,,,CY
+5.97659630839883,Busan,South Korea,"19,469",,,,Metro Port Vancouver (BC),Canada,"3,054",0.001,"3,054",,,,,,CY
+6.9719155700786,Qingdao,China,"17,323",,,,Hampton Roads,United States,"2,549",0.001,"2,549",,,,,,CY
+7.96723483175836,Guangzhou,China,"17,097",,,,Manzanillo,Mexico,"2,458",0.001,"2,458",,,,,,CY
+8.96255409343813,Dubai Ports,United Arab Emirates,"15,585",,,,Oakland,United States,"2,278",0.001,"2,278",,,,,,CY
+9.95787335511789,Tianjin,China,"13,881",,,,Houston,United States,"2,131",0.001,"2,131",,,,,,CY
+10.9531926167977,Rotterdam,Netherlands,"12,235",,,,Charleston,United States,"1,973",0.001,"1,973",,,CY,,,
+11.9485118784774,Port Kelang,Malaysia,"11,887",,,,Montreal,Canada,"1,446",0.001,"1,962",,,CY,,,
+12.9438311401572,Kaohsiung,Taiwan,"10,264",,,,Honolulu (FY),United States,"1,213",0.001,"1,446",,,CY,,,
+13.939150401837,Antwerp,Belgium,"9,654",,,,San Juan (FY),United States,"1,211",0.001,"1,213",,,CY,,,
+14.9344696635167,Dalian,China,"9,591",,,,Port Everglades (FY),United States,"1,061",0.001,"1,211",,,CY,,,
+15.9297889251965,Xiamen,China,"9,215",,,,Lazaro Cardenas,Mexico,"1,059",0.001,"1,061",,,CY,,,
+16.9251081868763,Hamburg,Germany,"8,821",,,,Miami (FY),United States,"1,008",0.001,"1,059",,,CY,,,
+17.920427448556,Tanjung Pelepas,Malaysia,"8,797",,,,Veracruz,Mexico,932,0.001,"1,008",,,,,,CY
+18.9157467102358,Los Angeles,United States,"8,160",,,,Jacksonville (a) (FY),United States,915,0.001,932,,,,,,CY
+19.9110659719156,Long Beach,United States,"7,192",,,,Baltimore,United States,840,0.001,915,,,,,,CY
+20.9063852335953,Laem Chabang,Thailand,"6,780",,,,Prince Rupert,Canada,776,0.001,840,,,,,,CY
+21.9017044952751,Saigon Port,Vietnam,"6,556",,,,Altamira,Mexico,647,0.001,776,,,,,,CY
+22.8970237569549,New York / New Jersey,United States,"6,372",,,,New Orleans (a),United States,525,0.001,647,,,,,,CY
+23.8923430186346,Bremen/Bremerhaven,Germany,"5,547",,,,Anchorage,United States,486,0.001,525,,,,,,CY
+24.8876622803144,Jeddah,Saudi Arabia,"5,417",,,,Philadelphia,United States,428,0.001,486,,,,,,CY
+25.8829815419942,Tanjung Priok,Indonesia,"5,154",,,,Halifax,Canada,418,0.001,428,,,,,,CY
+26.8783008036739,Saigon New Port,Vietnam,"5,026",,,,Wilmington(DE),United States,337,0.001,418,,,,,,CY
+27.8736200653537,Valencia,Spain,"4,615",,,,Wilmington(NC),United States,292,0.001,337,,,,,,CY
+28.8689393270334,Algeciras - La Linea,Spain,"4,516",,,,Palm Beach (FY),United States,271,0.001,292,,,,,,CY
+29.8642585887132,Jawaharlal Nehru,India,"4,492",,,,Boston,United States,237,0.001,271,,,,,,CY
+30.859577850393,Khor Fakkan,United Arab Emirates,"4,414",,,,Mobile (b),United States,229,0.001,237,,,,,,CY
+31.8548971120727,Tokyo,Japan,"4,150",,,,Ensenada,Mexico,193,0.001,229,,,,,,CY
+32.8502163737525,Manila,Philippines,"3,976",,,,Apra (GUAM),United States,172,0.001,193,,,,,,CY
+33.8455356354323,Santos,Brazil,"3,780",,,,Gulfport,United States,142,0.001,172,,,,,,CY
+34.840854897112,Savannah,United States,"3,737",,,,San Diego,United States,119,0.001,142,,,,,,CY
+35.8361741587918,Felixstowe,United Kingdom,"3,676",,,,Kahului (FY),United States,108,0.001,119,,,,,,CY
+36.8314934204716,Northwest Seaport Alliance,United States,"3,531",,,,Freeport,United States,99,0.001,108,,,,,,CY
+37.8268126821513,Gioia Tauro,Italy,"3,512",,,,Hueneme,United States,99,0.001,99,,,,,,CY
+38.8221319438311,Piraeus,Greece,"3,360",,,,Saint John,Canada,97,0.001,99,,,,,,CY
+39.8174512055109,Balboa,Panama,"3,078",,,,Kawaihae (FY),United States,84,0.001,97,,,,,,CY
+40.8127704671906,Ambarli,Turkey,"3,062",,,,Progreso,Mexico,68,0.001,84,,,,,,CY
+41.8080897288704,Metro Vancouver,Canada,"3,054",,,,Tampa ,United States,57,0.001,68,,,,,,CY
+42.8034089905502,East Port Said Port,Egypt,"3,036",,,,Nawiliwili (FY),United States,51,0.001,57,,,,,,CY
+43.7987282522299,Tanger,Morocco,"2,971",,,,Hilo (FY),United States,36,0.001,51,,,,,,CY
+44.7940475139097,Yokohama,Japan,"2,787",,,,Mazatlan,Mexico,36,0.001,36,,,,,,CY
+45.7893667755895,Durban,South Africa,"2,770",,,,Nanaimo,Canada,35,0.001,36,,,,,,CY
+46.7846860372692,Colon ,Panamá,"2,765",,,,Panama City,United States,34,0.001,35,,,,,,CY
+47.780005298949,Kobe,Japan,"2,707",,,,Everett,United States,33,0.001,34,,,,,,CY
+48.7753245606288,Keelung,Taiwan,"2,666",,,,Manatee,United States,29,0.001,33,,,,,,CY
+49.7706438223085,Melbourne,Australia,"2,638",,,,Portland(OR),United States,23,0.001,29,,,,,,CY
+50.7659630839883,Nagoya,Japan,"2,631",,,,Portland(ME),United States,23,0.001,23,,,,,,CY
+51.7612823456681,Cartagena,Colombia,"2,607",,,,Coatzacoalcos,Mexico,11,0.001,23,,,,,,CY
+52.7566016073478,Mina Raysut,Oman,"2,569",,,,Puerto Morelos,Mexico,11,0.001,11,,,,,,CY
+53.7519208690276,Le Havre,France,"2,556",,,,Kalaeloa Barbers Point (fy),United States,9,0.001,11,,,,,,CY
+54.7472401307074,Virginia,United States,"2,549",,,,Guaymas,Mexico,8,0.001,9,,,,,,CY
+55.7425593923871,Manzanillo,Mexico,"2,458",,,,Fernandina,United States,8,0.001,8,,,,,,CY
+56.7378786540669,Inchon,South Korea,"2,368",,,,Beaumont,United States,4,0.001,8,,,,,,CY
+57.7331979157467,Southampton,United Kingdom,"2,349",,,,Kaumalapau (HI) (fy),United States,3,0.001,4,,,,,,CY
+58.7285171774264,Sydney Ports,Australia,"2,330",,,,Cleveland,United States,2,0.001,3,,,,,,CY
+59.7238364391062,Kwangyang,South Korea,"2,327",,,,Vancouver(WA),United States,2,0.001,2,,,,,,CY
+60.719155700786,Oakland,United States,"2,278",,,,Kaunakakai (FY),United States,2,0.001,2,,,,,,CY
+61.7144749624657,Genoa,Italy,"2,243",,,,Canaveral,United States,1,0.001,2,,,,,,CY
+62.7097942241455,Dublin,Ireland,"2,217",,,,Saguenay,Canada,0,0.001,1,,,,,,CY
+63.7051134858253,Houston,United States,"2,131",,,,Toronto,Canada,0,0.001,0,,,,,,CY
+64.700432747505,Chittagong,Bangladesh,"2,025",,,,Greater Baton Rouge,United States,0,0.001,0,,,,,,CY
+65.6957520091848,Charleston,United States,"1,973",,,,Lake Charles,United States,0,0.001,0,,,,,,CY
+66.6910712708646,Osaka,Japan,"1,970",,,,Tampico,Mexico,0,0.001,0,,,,,,CY
+67.6863905325443,Barcelona,Spain,"1,965",,,,Hamilton,Canada,0,0.001,0,,,,,,CY
+68.6817097942241,Karachi,Pakistan,"1,957",,,,Dos Bocas,Mexico,0,0.001,0,,,,,,CY
+69.6770290559039,Dammam,Saudi Arabia,"1,954",,,,Longview,United States,0,0.001,0,,,,,,CY
+70.6723483175836,Callao,Peru,"1,900",,,,Olympia,United States,0,0.001,0,,,,,,CY
+71.6676675792634,Manzanillo,Panama,"1,821",,,,Richmond(CA),United States,0,0.001,0,,,,,,CY
+72.6629868409431,Guayaquil  ,Ecuador ,"1,765",,,,,,,0.001,0,,,,,,CY
+73.6583061026229,St. Petersburg,Russia,"1,715",,,,Santos,Brazil,"3,780",0.001,4,,,,,,CY
+74.6536253643027,Bandar Abbas,Iran,"1,705",,,,Balboa ,Panamá,"3,078",0.001,3,,,,,,CY
+75.6489446259825,Colombo,Sri Lanka,"1,662",,,,Colon ,Panamá,"2,765",0.001,3,,,,,,CY
+76.6442638876622,Alexandria/El-Dekheila,Egypt,"1,662",,,,"Cartagena (incl. SPRC, El Bosque, Contecar)",Colombia,"2,607",0.001,3,,,,,,CY
+77.639583149342,Kingston,Jamaica,"1,575",,,,Callao ,Perú,"1,900",0.001,2,,,,,,CY
+78.6349024110218,Chennai,India,"1,571",,,,Guayaquil  ,Ecuador ,"1,765",0.001,2,,,,,,CY
+79.6302216727015,Zeebrugge,Belgium,"1,569",,,,Buenos Aires (incl. Exolgen),Argentina,"1,428",0.001,1,,,,,,CY
+80.6255409343813,Bangkok,Thailand,"1,559",,,,Limon/Moin,Costa Rica,"1,106",0.001,1,,,,,,CY
+81.620860196061,Taichung,Taiwan,"1,447",,,,,,,,,,,,,,CY
+82.6161794577408,Montreal,Canada,"1,446",,,,Freeport,Bahamas,"1,400",,,,,,,,CY
+83.6114987194206,Mersin,Turkey,"1,428",,,,Kingston,Jamaica,"1,653",,,,,,,,CY
+84.6068179811003,Buenos Aires (incl. Exolgen),Argentina,"1,428",,,,,,,,,,,,,,CY
+85.6021372427801,Freeport,Bahamas,"1,400",,,,,,,,,,,,,,CY
+86.5974565044599,Sines,Portugal,"1,332",,,,,,,,,,,,,,CY
+87.5927757661396,Penang,Malaysia,"1,317",,,,,,,,,,,,,,CY
+88.5880950278194,Ashdod,Israel,"1,307",,,,,,,,,,,,,,CY
+89.5834142894992,La Spezia,Italy,"1,300",,,,,,,,,,,,,,CY
+90.5787335511789,Marseilles,France,"1,220",,,,,,,,,,,,,,CY
+91.5740528128587,Haifa,Israel,"1,215",,,,,,,,,,,,,,CY
+92.5693720745385,Honolulu,United States,"1,213",,,,,,,,,,,,,,CY
+93.5646913362182,San Juan,Puerto Rico,"1,211",,,,,,,,,,,,,,CY
+94.560010597898,Belawan,Indonesia,"1,197",,,,,,,,,,,,,,CY
+95.5553298595778,London,United Kingdom,"1,185",,,,,,,,,,,,,,CY
+96.5506491212575,Brisbane,Australia,"1,152",,,,,,,,,,,,,,CY
+97.5459683829373,Beirut,Lebanon,"1,130",,,,,,,,,,,,,,CY
+98.5412876446171,Guayaquil,Ecuador,"1,125",,,,,,,,,,,,,,CY
+99.5366069062968,Limon/Moin,Costa Rica,"1,106",,,,,,,,,,,,,,
+100.531926167977,Gdansk,Poland,"1,091",,,,,,,,,,,,,,
+101.527245429656,Mombasa,Kenya,"1,076",,,,,,,,,,,,,,
+102.522564691336,Port Everglades,United States,"1,061",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,CY
+,,,,,,,,,,,,,,,,,CY
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,Port Everglades (FY),United States,"1,061",,,,,,,,,,,,,,
+,Lazaro Cardenas,Mexico,"1,059",,,,,,,,,,,,,,
+,Miami (FY),United States,"1,008",,,,,,,,,,,,,,
+,Veracruz,Mexico,932,,,,,,,,,,,,,,
+,Jacksonville (a) (FY),United States,915,,,,,,,,,,,,,,
+,Baltimore,United States,840,,,,,,,,,,,,,,
+,Prince Rupert,Canada,776,,,,,,,,,,,,,,
+,Altamira,Mexico,647,,,,,,,,,,,,,,
+,New Orleans (a),United States,525,,,,,,,,,,,,,,
+,Anchorage,United States,486,,,,,,,,,,,,,,
+,Philadelphia,United States,428,,,,,,,,,,,,,,
+,Halifax,Canada,418,,,,,,,,,,,,,,
+,Wilmington(DE),United States,337,,,,,,,,,,,,,,
+,Wilmington(NC),United States,292,,,,,,,,,,,,,,
+,Palm Beach (FY),United States,271,,,,,,,,,,,,,,
+,Boston,United States,237,,,,,,,,,,,,,,
+,Mobile (b),United States,229,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
