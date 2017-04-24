@@ -2,35 +2,101 @@
 <meta charset="utf-8">
 <style>
 
-path {
+body {
+  background: #fcfcfa;
+}
+
+.stroke {
   fill: none;
   stroke: #000;
-  stroke-linejoin: round;
-  stroke-linecap: round;
+  stroke-width: 3px;
+}
+
+.fill {
+  fill: #fff;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.land {
+  fill: #222;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
 }
 
 </style>
 <body>
-<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
 <script>
 
+
+
+
 var width = 960,
-    height = 960;
+    height = 580;
+
+var color = d3.scale.category10();
+
+var projection = d3.geo.naturalEarth()
+    .scale(170)
+    .translate([width / 2, height / 2])
+    .precision(.1);
+
+
+let mtl_coordinates = projection([-73.5673, 45.5]); //EW, NS
+
 
 var path = d3.geo.path()
-    .projection(null);
+    .projection(projection);
+
+var graticule = d3.geo.graticule();
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-d3.json("countries-natural-topo-simple-quantized.json", function(error, us) {
-  if (error) return console.error(error);
 
-  svg.append("path")
-      .datum(topojson.mesh(us))
+d3.json("world-50m.json", function(error, world) {
+  if (error) throw error;
+
+  var countries = topojson.feature(world, world.objects.countries).features;
+      
+
+  svg.selectAll(".country")
+      .data(countries)
+    .enter().insert("path", ".graticule")
+      .attr("class", "country")
+      .attr("d", path)
+      .style("fill", "#DDD");
+
+  svg.insert("path", ".graticule")
+      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+      .attr("class", "boundary")
       .attr("d", path);
+
+      console.log("appeneds")
+  svg.append("circle")
+    .attr("cx", mtl_coordinates[0])
+    .attr("cy", mtl_coordinates[1])
+    .attr("r", 5)
+    .style("fill", "red");
 });
+
+
+
+
+
+d3.select(self.frameElement).style("height", height + "px");
 
 </script>
