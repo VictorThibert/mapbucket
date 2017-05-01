@@ -27,7 +27,7 @@ def main():
 		try:
 			with urllib.request.urlopen(base_url+city+'+'+country) as url:
 				data = json.loads(url.read().decode())
-				print('--------------------------', base_url+city+'+'+country)
+				# print('--------------------------', base_url+city+'+'+country)
 				try:
 					location.append(data[0]['lat'])
 					location.append(data[0]['lon'])
