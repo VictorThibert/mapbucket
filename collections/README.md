@@ -6,6 +6,7 @@
 - university sizes
 - hackathon locations
 - charging station
+- population densities by country (a la bostock usa)
 -------------------------------
 #### procedure
 - find shapefile
