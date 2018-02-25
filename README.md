@@ -13,3 +13,6 @@ Every map should have
 3 Factors
 Interesting / Visually pleasing / Efficient in conveying information
 
+For global maps:
+
+As of right now, use Natural Earth projection: http://www.shadedrelief.com/NE_proj/
