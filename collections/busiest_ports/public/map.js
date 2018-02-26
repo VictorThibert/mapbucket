@@ -67,7 +67,7 @@ d3.json("../assets/world_minus_antarctica.json", function(error, world) {
       .on("mouseover", function(d) {  
         tooltip.transition()    
           .duration(200)    
-          .style("opacity", .9);    
+          .style("opacity", 1);    
         tooltip.html(d['rank'] + '<br>' + d['city']+ '<br>' + d['teu'])  
           .style("left", (d3.event.pageX) + "px")   
           .style("top", (d3.event.pageY - 28) + "px");  
@@ -95,3 +95,4 @@ function zoomed() {
         return Math.sqrt(d['teu']) / radiusDivider / Math.pow(d3.event.transform.k, 0.5)
       }) 
 }
+
