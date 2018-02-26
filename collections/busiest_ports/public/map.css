@@ -17,14 +17,18 @@ body {
 .boundary {
   fill: none;
   stroke-width: 0.5px;
-  stroke: #fff;
+  stroke: #FFF;
 }
 
 .marker {
   fill: none;
   opacity: 0.8;
   stroke-width: 0.5px;
-  stroke: #fff;
+  stroke: #FFF;
+}
+
+.sphere {
+  fill: #F9F9F9;
 }
 
 div.tooltip { 

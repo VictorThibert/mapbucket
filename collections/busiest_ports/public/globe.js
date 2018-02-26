@@ -1,8 +1,18 @@
+
+// color scale
 let colorScale = d3.scaleLinear().domain([0, 100]).range(["#ea765d", "#6e8fb7"]);
+
 // set dimensions of graphic
-let width = 960;
-let height = 550;
-let radiusDivider = 12
+let width = 500;
+let height = 500;
+let radiusDivider = 12;
+let sensitivity = 0.25;
+
+// create svg to house map
+let svg = d3.select("body").append("svg")
+  .attr("width", width)
+  .attr("height", height)
+  // .call(zoom)
 
 // create zoom object
 let zoom = d3.zoom()
@@ -14,87 +24,54 @@ let zoom = d3.zoom()
 let projection = d3.geoOrthographic()
   .scale(200)
   .clipAngle(90) // hide behind globe
-  // .translate([width / 2, height / 2 + 50]) // +50 for antarctica removal
+  .translate([width / 2, height / 2 ]) // center
   .precision(.1);
 
 // create path from projection
-let path = d3.geoPath()
-  .projection(projection);
-
+let path = d3.geoPath().projection(projection);
 let geoCircle = d3.geoCircle();
-
-let graticule = d3.geoGraticule();
-
-
-// create svg to house map
-let svg = d3.select("body").append("svg")
-  .attr("width", width)
-  .attr("height", height)
-  // .call(zoom)
+let graticule = d3.geoGraticule(); // grey lines lat,lng
 
 // create features to house elements of the map
 let features = svg.append("g")
-var sens = 0.25;
+
+// append sphere to features (allows dragging and coloring of water)
 features
   .append("path")
   .datum({type: "Sphere"})
   .call(d3.drag()
-              .subject(function() { var r = projection.rotate(); return {x: r[0] / sens, y: -r[1] / sens}; })
-              .on("drag", function() {
-                var rotate = projection.rotate();
-                projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
-                features.selectAll(".country").attr("d", path);
-                features.select(".boundary").attr("d", path);
-                line.attr("d", path);
-                features.selectAll("path.marker").attr("d",function(d) { 
-        return path(geoCircle.center([d.lon, d.lat])
-           .radius(Math.sqrt(d.teu/1000))())
-      })
-    }))
+    .subject(function() { var r = projection.rotate(); return {x: r[0] / sensitivity, y: -r[1] / sensitivity}; })
+    .on("drag", rotateGlobe))
   .attr("class", "sphere")
-  .attr("d", path)
-  .attr("fill", "#d3ebf2")
-  
+  .attr("d", path)  
 
-var line = svg.append("path")
-    .datum(graticule)
-    .attr("class", "graticule")
-    .attr("d", path);
-
-
+let line = svg.append("path")
+  .datum(graticule)
+  .attr("class", "graticule")
+  .attr("d", path);
 
 // create tooltip div (invisible)
 let tooltip = d3.select("body").append("div") 
   .attr("class", "tooltip")       
   .style("opacity", 0);
+let rotate = projection.rotate();
 
 // read in world coordinates
-d3.json("../assets/world_minus_antarctica.json", function(error, world) {
+d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
   if (error) throw error;
 
   let countries = topojson.feature(world, world.objects.countries).features;
 
   features.selectAll(".country")
-      .data(countries)
-      .enter().append("path", ".graticule")
-      .attr("class", "country")
-      .attr("d", path)
-      .call(d3.drag()
-              .subject(function() { var r = projection.rotate(); return {x: r[0] / sens, y: -r[1] / sens}; })
-              .on("drag", function() {
-                var rotate = projection.rotate();
-                projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
-                features.selectAll(".country").attr("d", path);
-                features.select(".boundary").attr("d", path);
-                line.attr("d", path);
-                features.selectAll("path.marker").attr("d",function(d) { 
-        return path(geoCircle.center([d.lon, d.lat])
-           .radius(Math.sqrt(d.teu/1000))())
-      })
-    }))
-      .style("fill", "#DDD")
+    .data(countries)
+    .enter().append("path", ".graticule")
+    .attr("class", "country")
+    .attr("d", path)
+    .call(d3.drag()
+      .subject(function() { var r = projection.rotate(); return {x: r[0] / sensitivity, y: -r[1] / sensitivity}; })
+      .on("drag", rotateGlobe))
+    .style("fill", "#DDD")
               
-
   features.insert("path", ".graticule")
       .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
       .attr("class", "boundary")
@@ -126,10 +103,8 @@ d3.json("../assets/world_minus_antarctica.json", function(error, world) {
         tooltip.transition()    
           .duration(500)    
           .style("opacity", 0); 
-      })
-      
+      }) 
   });
-  // spinning_globe();
 });
 
 d3.select(self.frameElement).style("height", height + "px");
@@ -148,53 +123,57 @@ function zoomed() {
       }) 
 }
 
+// go to location on globe
+function step(lat, lng) {
+  d3.transition()
+      .delay(250)
+      .duration(1250)
+      .tween("rotate", function() {
+        var point = [-73.4,45.5],
+            rotate = d3.interpolate(projection.rotate(), [-point[0], -point[1]]);
 
-// automatic globe spinnging
-var time = Date.now();
-var rotate = [0, 0];
-var velocity = [.01, -0];
-function spinning_globe(){
-   d3.timer(function(elapsed) {
-      // get current time
-      var dt = Date.now() - time;
-
-      // get the new position from modified projection function
-      projection.rotate([rotate[0] + velocity[0] * dt, rotate[1] + velocity[1] * dt]);
-
-      // update cities position = redraw
-      features.selectAll(".country").attr("d", path);
-      features.select(".boundary").attr("d", path);
-
-      features.selectAll("path.marker").attr("d",function(d) { 
-        return path(geoCircle.center([d.lon, d.lat])
-           .radius(Math.sqrt(d.teu/1000))())
+        return function(t) {
+          projection.rotate(rotate(t));
+          features.selectAll(".country").attr("d", path);
+          features.select(".boundary").attr("d", path);
+          line.attr("d", path);
+          features.selectAll("path.marker").attr("d",function(d) { 
+            return path(geoCircle.center([d.lon, d.lat])
+              .radius(Math.sqrt(d.teu/1000))())
+          })
+        };
       })
-   });
+    .transition()
 }
 
-function step() {
-  console.log("What")
+function rotateGlobe() {
+  projection.rotate([d3.event.x * sensitivity, -d3.event.y * sensitivity, rotate[2]]);
+  features.selectAll(".country").attr("d", path);
+  features.select(".boundary").attr("d", path);
+  line.attr("d", path);
+  features.selectAll("path.marker").attr("d",function(d) { 
+    return path(geoCircle.center([d.lon, d.lat])
+      .radius(Math.sqrt(d.teu/1000))())
+  })
+}
 
-    d3.transition()
-        .delay(250)
-        .duration(1250)
-        .tween("rotate", function() {
-          var point = [-73.4,45.5],
-              rotate = d3.interpolate(projection.rotate(), [-point[0], -point[1]]);
-
-          return function(t) {
-            projection.rotate(rotate(t));
-            // line.attr("d", path);
-            // country.attr("d", path);
-            features.selectAll(".country").attr("d", path);
-      features.select(".boundary").attr("d", path);
-      line.attr("d", path);
-      features.selectAll("path.marker").attr("d",function(d) { 
-        return path(geoCircle.center([d.lon, d.lat])
-           .radius(Math.sqrt(d.teu/1000))())
-      })
-          };
-        })
-      .transition()
-       .on("end", step);
-  }
+// automatic globe spinnging
+// var time = Date.now();
+// var rotate = [0, 0];
+// var velocity = [.01, -0];
+// function spinning_globe(){
+//    d3.timer(function(elapsed) {
+//       // get current time
+//       var dt = Date.now() - time;
+//       // get the new position from modified projection function
+//       projection.rotate([rotate[0] + velocity[0] * dt, rotate[1] + velocity[1] * dt]);
+//       // update cities position = redraw
+//       features.selectAll(".country").attr("d", path);
+//       features.select(".boundary").attr("d", path);
+//       line.attr("d",path);
+//       features.selectAll("path.marker").attr("d",function(d) { 
+//         return path(geoCircle.center([d.lon, d.lat])
+//            .radius(Math.sqrt(d.teu/1000))())
+//       })
+//    },10);
+// }
