@@ -4,16 +4,18 @@ html {
 }
 
 body {
-
-
-background: -webkit-linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
-background: linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
-
-
+  background: -webkit-linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
+  background: linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
 }
 
 #mainLogo {
   border:none;
+}
+
+#slider {
+  margin-top: 20px;
+  width: 90%;
+  margin-bottom: 30px;
 }
 
 #title {
@@ -23,6 +25,12 @@ background: linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
 
 #rightRail {
   width: 180px;
+}
+
+#mapSegment {
+  padding: 0px;
+  width:801px;
+  height:451px;
 }
 
 .ui.segment {
@@ -36,11 +44,12 @@ background: linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
 #mapHolder {
   margin-top: 5%;
   margin-left: -45px;
-  padding:20px;
+  padding: 20px;
 }
 
 #centerContainer {
-  max-width: 835px !important;
+  max-width: 801px !important;
+  /*max-height: 430px;*/
 }
 
 .legend circle {
@@ -74,6 +83,9 @@ background: linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
 
 .boundary {
   fill: none;
+  /*stroke-opacity: 0.9;*/
+  stroke-width: 0.5px;
+  stroke: #CCC;
 
 }
 
@@ -102,7 +114,7 @@ div.tooltip {
   pointer-events: none;  
   min-width: 100px;
   position: absolute;     
-  text-align: center;     
+  text-align: left;     
 }
 
 #wrapper {

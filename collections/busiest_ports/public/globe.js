@@ -1,7 +1,8 @@
 var MYNS = MYNS || {};
   MYNS.subns = (function() {
   // color scale
-  let colorScale = d3.scaleLinear().domain([40000, 000]).range(["#ea765d", "#6e8fb7"]);
+  let colorScale = d3.scaleSqrt().domain([15, -15]).range(["#F56D55", "#6e8fb7"]);
+
 
   // set dimensions of graphic
   let size = 150;
@@ -73,7 +74,7 @@ var MYNS = MYNS || {};
       .call(d3.drag()
         .subject(function() { var r = projection.rotate(); return {x: r[0] / sensitivity, y: -r[1] / sensitivity}; })
         .on("drag", rotateGlobe))
-      .style("fill", "#DDD")
+      .style("fill", "#EEE")
                 
     features.insert("path", ".graticule")
         .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))

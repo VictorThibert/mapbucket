@@ -74,13 +74,13 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
 /* Slider size and handle placement;
  */
 .noUi-horizontal {
-  height: 15px;
+  height: 12px;
 }
 .noUi-horizontal .noUi-handle {
-  width: 26px;
-  height: 24px;
+  width: 20px;
+  height: 18px;
   left: -17px;
-  top: -6px;
+  top: -4px;
 }
 .noUi-vertical {
   width: 18px;
@@ -202,8 +202,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   width: 90%;
 }
 .noUi-value-horizontal {
-  -webkit-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 30%);
+  transform: translate(-50%, 30%);
   font-size: 12px;
 }
 .noUi-rtl .noUi-value-horizontal {

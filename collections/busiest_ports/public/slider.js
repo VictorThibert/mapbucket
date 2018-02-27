@@ -33,5 +33,5 @@ slider.noUiSlider.on('update', function ( ) {
 
 	let year = parseInt(slider.noUiSlider.get());
 	MYNS2.subns.updateData(year);MYNS.subns.updateGlobe(year);
-	document.getElementById('test').innerHTML = year;
+	// document.getElementById('test').innerHTML = year;
 });
