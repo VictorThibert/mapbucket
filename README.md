@@ -9,6 +9,7 @@ Every map should have
 - An export to PNG option (from svg)
 - Scale
 
+- Stylistic consistency with every other map
 
 3 Factors
 Interesting / Visually pleasing / Efficient in conveying information
