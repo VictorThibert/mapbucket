@@ -1,98 +1,181 @@
-let colorScale = d3.scaleLinear().domain([0, 100]).range(["#ea765d", "#6e8fb7"]);
-// set dimensions of graphic
-let width = 960;
-let height = 550;
-let radiusDivider = 12
+var MYNS2 = MYNS2 || {};
+  MYNS2.subns = (function() {
 
-// create zoom object
-let zoom = d3.zoom()
-  .translateExtent([[0, 0], [width, height]])
-  .scaleExtent([1, 8])
-  .on("zoom", zoomed);
+  let colorScale = d3.scaleSqrt().domain([15, -15]).range(["#ea765d", "#6e8fb7"]);
+  // set dimensions of graphic
+  let width = 800;
+  let height = 420;
+  let radiusDivider = 10;
 
-// define projection and viewing bounds
-let projection = d3.geoNaturalEarth()
-  .scale(200)
-  .translate([width / 2, height / 2 + 50]) // +50 for antarctica removal
-  .precision(.1);
+  // create zoom object
+  let zoom = d3.zoom()
+    // .translateExtent([[0, 0], [width, height]])
+    .scaleExtent([1, 8])
+    .on("zoom", zoomed);
 
-// create path from projection
-let path = d3.geoPath()
-  .projection(projection);
+  // define projection and viewing bounds
+  let projection = d3.geoNaturalEarth()
+    .scale(160)
+    .translate([width / 2 - 20, height / 2 + 20]) // +50 for antarctica removal
+    .precision(.1);
 
-let graticule = d3.geoGraticule();
+  // create path from projection
+  let path = d3.geoPath()
+    .projection(projection);
 
-// create svg to house map
-let svg = d3.select("body").append("svg")
-  .attr("width", width)
-  .attr("height", height)
-  .call(zoom)
+  let graticule = d3.geoGraticule();
+
+  // create svg to house map
+  let svg = d3.select("#mainmap").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .call(zoom)
+
+      
+  // create features to house elements of the map
+  let features = svg.append("g");   
+
+  // create tooltip div (invisible)
+  let tooltip = d3.select("#mapHolder").append("div") 
+    .attr("class", "tooltip")       
+    .style("opacity", 0);
+
+  // read in world coordinates
+  d3.json("../assets/world_minus_antarctica.json", function(error, world) {
+    if (error) throw error;
+
+    let countries = topojson.feature(world, world.objects.countries).features;
+
+    features.selectAll(".country")
+        .data(countries)
+      .enter().insert("path", ".graticule")
+        .attr("class", "country")
+        .attr("d", path)
+        .style("fill", "#DDD");
+
+    features.insert("path", ".graticule")
+        .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+        .attr("class", "boundary")
+        .attr("d", path);
+
+    drawCircles(2015);
     
-// create features to house elements of the map
-let features = svg.append("g");   
-
-// create tooltip div (invisible)
-let tooltip = d3.select("body").append("div") 
-  .attr("class", "tooltip")       
-  .style("opacity", 0);
-
-// read in world coordinates
-d3.json("../assets/world_minus_antarctica.json", function(error, world) {
-  if (error) throw error;
-
-  let countries = topojson.feature(world, world.objects.countries).features;
-
-  features.selectAll(".country")
-      .data(countries)
-    .enter().insert("path", ".graticule")
-      .attr("class", "country")
-      .attr("d", path)
-      .style("fill", "#DDD");
-
-  features.insert("path", ".graticule")
-      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
-      .attr("class", "boundary")
-      .attr("d", path);
-
-  d3.csv("../assets/top100ports2015withcoordinates.csv", function(data) {
-    features.selectAll(".markers")
-      .data(data)
-      .enter()
-      .append("circle")
-      .attr("class", "marker")
-      .attr("cx", function(d){return projection([d['lon'],d['lat']])[0] })
-      .attr("cy",function(d){return projection([d['lon'],d['lat']])[1] })
-      .attr("r", function(d){return Math.sqrt(d['teu']) / radiusDivider }) //consider proportional to square root
-      .style("fill", function(d){return colorScale(d['rank'])})
-      .on("mouseover", function(d) {  
-        tooltip.transition()    
-          .duration(200)    
-          .style("opacity", 1);    
-        tooltip.html(d['rank'] + '<br>' + d['city']+ '<br>' + d['teu'])  
-          .style("left", (d3.event.pageX) + "px")   
-          .style("top", (d3.event.pageY - 28) + "px");  
-        })          
-      .on("mouseout", function(d) {   
-        tooltip.transition()    
-          .duration(500)    
-          .style("opacity", 0); 
-      });
   });
-});
 
-d3.select(self.frameElement).style("height", height + "px");
+  // draw scatterplot points
+  function drawCircles(year) {
+    d3.csv("../assets/top100ports2015withcoordinates.csv", function(data) {
+      features.selectAll(".marker")
+        .data(data)
+        .enter()
+        .append("circle")
+        .attr("class", "marker")
+        .attr("cx", function(d){return projection([d['lon'],d['lat']])[0] })
+        .attr("cy",function(d){return projection([d['lon'],d['lat']])[1] })
+        .attr("r", function(d){return Math.sqrt(d['teu']) / radiusDivider }) //consider proportional to square root
+        .style("fill", function(d){return colorScale(d['percent'])})
+        .on("mouseover", function(d) { 
+          MYNS.subns.step(d['lat'], d['lon']); // call globe spin
+          d3.select(this).style("stroke", '#222') 
+          tooltip.transition()    
+            .duration(100)    
+            .style("opacity", 1);    
+          tooltip.html(d['rank'] + '<br>' + d['city']+ '<br>' + d['teu'])  
+            .style("left", (d3.event.pageX - 40) + "px")   
+            .style("top", (d3.event.pageY - 75) + "px");  
+          })          
+        .on("mouseout", function(d) {  
+          d3.select(this).style("stroke", '#FFF') 
+          tooltip.transition()    
+            .duration(500)    
+            .style("opacity", 0); 
+        });
+    });
+  }
 
-// adjust graphics on zoom
-function zoomed() {
-  features.attr("transform", d3.event.transform); // updated for d3 v
-  features.select(".boundary")
-    .style("stroke-width", Math.pow(0.5 / d3.event.transform.k, 0.7) + "px");
-  features.selectAll(".marker")  
-    .style("stroke-width", Math.pow(0.5 / d3.event.transform.k, 0.7) + "px");
-  features.selectAll("circle")
-    .attr("r", function(d){
-        // exponent to slowly make circles bigger
-        return Math.sqrt(d['teu']) / radiusDivider / Math.pow(d3.event.transform.k, 0.5)
-      }) 
-}
+  function updateData(year) {
+    d3.csv("../assets/PORTS"+year+".csv", function(data) {
+      svg.selectAll("circle")
+        .data(data)
+        .transition()
+        .style("fill", function(d){return colorScale(d['percent'])})
+      svg.selectAll("circle")
+        .data(data) // Update with new data
+        .attr("cx", function(d){return projection([d['lon'] , d['lat']])[0] })
+        .attr("cy",function(d){return projection([d['lon'], d['lat']])[1] })
+      svg.selectAll("circle")
+        .data(data)
+        .transition()
+        .duration(500)
+        .attr("r", function(d){return Math.sqrt(d['teu']) / radiusDivider}) // Change size
+        
+    }); 
+  }
 
+  // legend components
+  let legendRadius = d3.scaleSqrt()
+      .domain([0, 40000])
+      .range([0, Math.sqrt(40000)/radiusDivider]);
+  let legend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", "translate(" + (58) + "," + (height-9) + ")")
+    .selectAll("g")
+    .data([5000, 15000, 40000])
+    .enter()
+    .append("g");
+  legend.append("circle")
+    .attr("cy", function(d) { return - legendRadius(d); })
+    .attr("r", legendRadius)
+  legend.append("text")
+    .attr("y", function(d) { return - 2 * legendRadius(d); })
+    .attr("dy", "1.3em")
+    .text(d3.format(".1s"));
+
+  let colorLegendBlockWidth = 30;
+  let colorLegend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", "translate(" + (100) + "," + (height - 20) + ")")
+    .selectAll("g")
+    .data([-15, -10, -5 , 0, 5, 10, 15])
+    .enter()
+    .append("g");
+  colorLegend.append("rect")
+    .attr("width", colorLegendBlockWidth)
+    .attr("height", 10)
+    .attr("x", function(d, i) {return i * colorLegendBlockWidth})
+    .style("fill", function(d) {return colorScale(d)})
+    .style("opacity", 0.75)
+  colorLegend.append("text")
+    .attr("y", -5)
+    .attr("x", function(d, i) {return i * colorLegendBlockWidth * 1.05 + colorLegendBlockWidth / 2 - 3})
+    .text(function(d) {return d + "%"});
+
+  // d3.select(self.frameElement).style("height", height + "px");
+
+  // adjust graphics on zoom
+  function zoomed() {
+    features.attr("transform", d3.event.transform); // updated for d3 v
+    features.select(".boundary")
+      .style("stroke-width", Math.pow(0.5 / d3.event.transform.k, 0.7) + "px");
+    features.selectAll(".marker")  
+      .style("stroke-width", Math.pow(0.5 / d3.event.transform.k, 0.7) + "px");
+    features.selectAll("circle")
+      .attr("r", function(d){
+          // exponent to slowly make circles bigger
+          return Math.sqrt(d['teu']) / radiusDivider / Math.pow(d3.event.transform.k, 0.5)
+        })
+    legend.selectAll("circle")
+      .attr("r", function(d){
+          return legendRadius(d) * Math.pow(d3.event.transform.k, 0.5)
+        })
+      .attr("cy", function(d) { return - legendRadius(d* d3.event.transform.k) ; })
+    legend.selectAll("text")
+      .attr("y", function(d) { return (- 2 * legendRadius(d* d3.event.transform.k)); })
+  }
+
+  // return public methods
+    return {
+      drawCircles: drawCircles,
+      updateData: updateData
+    }
+})();

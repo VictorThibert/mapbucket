@@ -1,6 +1,64 @@
+html {
+  height:100%;
+  overflow: auto;
+}
+
 body {
-  background: #fcfcfa;
-  font-family: 'font-family: 'Open Sans', sans-serif;';
+
+
+background: -webkit-linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
+background: linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
+
+
+}
+
+#mainLogo {
+  border:none;
+}
+
+#title {
+  font-size: 36px;
+  color: #FFF;
+}
+
+#rightRail {
+  width: 180px;
+}
+
+.ui.segment {
+  margin: 0px !important;
+}
+
+.ui.menu .item:before {
+  width: 0px !important;
+}
+
+#mapHolder {
+  margin-top: 5%;
+  margin-left: -45px;
+  padding:20px;
+}
+
+#centerContainer {
+  max-width: 835px !important;
+}
+
+.legend circle {
+  fill: none;
+  stroke: #ccc;
+}
+
+.legend text {
+  fill: #777;
+  font: 9px sans-serif;
+  text-anchor: middle;
+}
+
+.card {
+  background: #FFF; 
+  border-radius: 2px;     
+  border: 0px;    
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 3px 0px; 
 }
 
 .graticule {
@@ -16,8 +74,7 @@ body {
 
 .boundary {
   fill: none;
-  stroke-width: 0.5px;
-  stroke: #FFF;
+
 }
 
 .marker {
@@ -28,7 +85,7 @@ body {
 }
 
 .sphere {
-  fill: #F9F9F9;
+  fill: #FFF; /*#F9F9F9;*/
 }
 
 div.tooltip { 
@@ -37,13 +94,25 @@ div.tooltip {
   border: 0px;    
   box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 3px 0px; 
   fill: #FFF;
-  font-family: 'Open Sans', sans-serif;    
   font-size: 12px ;
   padding-top: 7px;     
   padding-bottom: 7px;
   padding-left: 15px;
   padding-right: 15px;  
   pointer-events: none;  
+  min-width: 100px;
   position: absolute;     
   text-align: center;     
+}
+
+#wrapper {
+    height: auto;
+}
+
+/* slider */
+.noUi-target {
+  box-shadow: 0px;
+}
+.noUi-handle {
+  box-shadow: 0px;
 }

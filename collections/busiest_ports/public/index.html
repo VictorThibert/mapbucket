@@ -5,11 +5,67 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="../assets/semantic/semantic.js"></script>
+    <script src="../assets/slider/nouislider.js"></script>
     <link rel="stylesheet" type="text/css" href="./map.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300" rel="stylesheet">  </head>
-  <body>
-  </body>
-  <!-- <script src="./map.js"></script>-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300">  
+    <link rel="stylesheet" type="text/css" href="../assets/semantic/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../assets/slider/nouislider.css">
+  </head>
+
+  <body class="vsc-initialized">
+
+
+
+
+
+  <div id="centerContainer" class="ui main text container">
+    
+    
+    
+    <div id="mapHolder">
+    
+      <div id="title">The World's Busiest Container Ports<p id="test"> (2016)</p></div>
+     
+    
+    <div id="" class="ui segment">
+       <div class="ui very close right rail">
+          <div id="rightRail" class="ui segment">
+            <div id="rightcolumn"></div>
+            <div id="source"></div>
+            <div id="slider">
+              <!-- <input name="updateButton" 
+                type="button" 
+                value="Update" 
+                onclick="MYNS2.subns.updateData(2016);MYNS.subns.updateGlobe(2016)">
+              </input> -->
+            </div>
+          </div>
+        </div>
+      
+      <div id="mainmap"></div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  <!-- <div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+      <div class="ui horizontal inverted small divided link list">
+        <a class="item" href="#">Site Map</a>
+        <a class="item" href="#">Contact Us</a>
+      </div>
+    </div>
+  </div> -->
+</body>
+
+  <script src="./map.js"></script>
   <script src="./globe.js"></script>
+  <script src="./slider.js"></script>
 </html>
