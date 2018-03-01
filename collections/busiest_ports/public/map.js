@@ -1,10 +1,11 @@
 var MYNS2 = MYNS2 || {};
   MYNS2.subns = (function() {
 
+  var margin = {top: 20, right: 10, bottom: 20, left: 10};
   let colorScale = d3.scaleSqrt().domain([15, -15]).range(["#F56D55", "#6e8fb7"]);
   // set dimensions of graphic
-  let width = 800;
-  let height = 450;
+  let width = 800 - margin.left - margin.right;
+  let height = 470 - margin.top - margin.bottom;
   let radiusDivider = 10;
   let thousand = 100;
 
@@ -28,8 +29,8 @@ var MYNS2 = MYNS2 || {};
 
   // create svg to house map
   let svg = d3.select("#mainmap").append("svg")
-    .attr("width", width)
-    .attr("height", height)
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
     .call(zoom)
 
       
@@ -127,11 +128,11 @@ var MYNS2 = MYNS2 || {};
     .enter()
     .append("g");
   legend.append("text")
-    .attr("y", function(d) { return - 2 * legendRadius(d);})
+    .attr("y", function(d) { return - 2 * legendRadius(d) + verticalShift;})
     .attr("dy", "1.3em")
     .text(d3.format(".1s"));
   legend.append("circle")
-    .attr("cy", function(d) { return - legendRadius(d);})
+    .attr("cy", function(d) { return - legendRadius(d) + verticalShift;})
     .attr("r", legendRadius);
   
 
@@ -146,16 +147,16 @@ var MYNS2 = MYNS2 || {};
   colorLegend.append("rect")
     .attr("width", colorLegendBlockWidth)
     .attr("height", 10)
-    .attr("y", -verticalShift + 10)
+    .attr("y",  + 10)
     .attr("x", function(d, i) {return i * colorLegendBlockWidth})
     .style("fill", function(d) {return colorScale(d)})
     .style("opacity", 0.75)
   colorLegend.append("text")
-    .attr("y", -verticalShift + 6)
+    .attr("y",  + 6)
     .attr("x", function(d, i) {return i * colorLegendBlockWidth * 1.05 + colorLegendBlockWidth / 2 - 3})
     .text(function(d) {return d + "%"});
   colorLegend.append("text")
-    .attr("y", verticalShift)
+    .attr("y", 2 * verticalShift)
     .attr("x", 70)
     .text("Percentage change year-over-year")
 
@@ -179,9 +180,9 @@ var MYNS2 = MYNS2 || {};
         console.log(d)  
           return legendRadius(d) * Math.pow(d3.event.transform.k, 0.5)
         })
-      .attr("cy", function(d) { return - legendRadius(d* d3.event.transform.k) ; })
+      .attr("cy", function(d) { return - legendRadius(d* d3.event.transform.k) + verticalShift; })
     legend.selectAll("text")
-      .attr("y", function(d) { console.log(d);return (- 2 * legendRadius(d* d3.event.transform.k)); })
+      .attr("y", function(d) { console.log(d);return (- 2 * legendRadius(d* d3.event.transform.k)) + verticalShift; })
   }
 
   // return public methods
