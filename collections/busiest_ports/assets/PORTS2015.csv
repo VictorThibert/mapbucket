@@ -1,5 +1,5 @@
 rank,city,country,teu,lat,lon,percent
-1,Shanghai,China,36516,31.2253441,121.4888922,3.5
+1,Shanghai,China,36516,31.225344,121.4888922,3.5
 2,Singapore,Singapore,30922,1.2904753,103.8520359,-8.7
 3,Shenzhen,China,24142,22.5442673,114.0545327,0.7
 4,Ningbo,China,20636,29.8720259,121.549887,6.1
@@ -88,7 +88,7 @@ rank,city,country,teu,lat,lon,percent
 87,Penang,Malaysia,1317,5.4065013,100.2559077,4.9
 88,Ashdod,Israel,1307,31.7977307,34.652994,8
 89,La Spezia,Italy,1300,44.107033,9.8282255,-3.3
-90,Marseilles,France,1220,47.0706778,3.0029271,-0.2
+90,Marseilles,France,1220,43.2965,5.3698,-0.2
 91,Haifa,Israel,1215,32.8191218,34.9983856,-5.5
 92,Honolulu,United States,1213,21.304547,-157.8556763,0.1
 93,San Juan,Puerto Rico,1211,18.465299,-66.1166659,-2.6

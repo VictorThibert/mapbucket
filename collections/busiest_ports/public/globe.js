@@ -1,5 +1,5 @@
-var MYNS = MYNS || {};
-  MYNS.subns = (function() {
+var globeNamespace = globeNamespace || {};
+  globeNamespace.subns = (function() {
   // color scale
   let colorScale = d3.scaleSqrt().domain([15, -15]).range(["#F56D55", "#6e8fb7"]);
 
@@ -93,7 +93,7 @@ var MYNS = MYNS || {};
             }
           )
         .attr("class","marker")
-        .style("fill", function(d){return colorScale(d['teu'])})
+        .style("fill", function(d){return colorScale(d['percent'])})
         .on("mouseover", function(d) {  
           tooltip.transition()    
             .duration(100)    
@@ -171,7 +171,7 @@ var MYNS = MYNS || {};
                 .center([d.lon, d.lat])
                 .radius(Math.sqrt(d.teu/1000))())
             })
-          .style("fill", function(d){return colorScale(d['teu'])});
+          .style("fill", function(d){return colorScale(d['percent'])});
         // svg.selectAll("path.marker")
         //   .data(data)
         //   .transition()

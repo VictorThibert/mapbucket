@@ -6,8 +6,10 @@
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.rawgit.com/eligrey/FileSaver.js/e9d941381475b5df8b7d7691013401e171014e89/FileSaver.min.js"></script>
     <script src="../assets/semantic/semantic.js"></script>
     <script src="../assets/slider/nouislider.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="./map.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300">  
     <link rel="stylesheet" type="text/css" href="../assets/semantic/semantic.css">
@@ -26,21 +28,26 @@
     
     <div id="mapHolder">
     
-      <div id="title">The World's Busiest Container Ports</div>
      
     
-    <div id="mapSegment" class="ui segment">
+    <div id="mapSegment" class="ui segment">      
       <div class="ui very close right rail">
         <div id="rightRail" class="ui segment">
           <div id="rightcolumn"></div>
-            <div id="source"></div>
-            <div id="slider">
-          </div>
+            <div style="padding:10px;">
+              <div id="slider"></div>
+
+            </div>
         </div>
       </div>
       
       
       <div id="mainmap"></div>
+
+      <div id="description" class="ui segment">
+        <div id="date">2018-03-04</div>
+          This is a map of the world's busiest container ports by total twenty-foot equivalent units (TEUs) throughput.
+      </div>
 
 
         

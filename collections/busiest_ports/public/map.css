@@ -6,16 +6,30 @@ html {
 body {
   background: -webkit-linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
   background: linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
+  overflow: auto;
+  height: 100%;
 }
 
 #mainLogo {
   border:none;
 }
 
+#description {
+  margin-top: 7px !important;
+}
+
 #slider {
   margin-top: 20px;
-  width: 90%;
+  width: 100%;
   margin-bottom: 30px;
+
+}
+
+#date {
+  color: #777;
+  font: 13px sans-serif;
+  font-family: 'arial';
+  margin-bottom: 5px;
 }
 
 #title {
@@ -30,7 +44,7 @@ body {
 #mapSegment {
   padding: 0px;
   width:801px;
-  height:471px;
+  height:491px;
 }
 
 .ui.segment {
@@ -43,7 +57,7 @@ body {
 
 #mapHolder {
   margin-top: 5%;
-  margin-left: -45px;
+  /*margin-left: -45px;*/
   padding: 20px;
 }
 
@@ -60,11 +74,26 @@ body {
 .legend text {
   fill: #777;
   font: 9px sans-serif;
+  font-family: 'arial';
+  text-anchor: middle;
+}
+
+.inMapSource text {
+  fill: #888;
+  font: 11px sans-serif;
+  font-family: 'arial';
+  text-anchor: middle;
+}
+
+.inMapTitle text {
+  fill: #444;
+  font: 30px sans-serif;
+  font-family: 'arial';
   text-anchor: middle;
 }
 
 .card {
-  background: #FFF; 
+  ackground: #FFF; 
   border-radius: 2px;     
   border: 0px;    
   box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 3px 0px; 

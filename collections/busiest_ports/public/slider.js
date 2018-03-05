@@ -32,6 +32,11 @@ for ( var i = 0; i < pips.length; i++ ) {
 slider.noUiSlider.on('update', function ( ) {
 
 	let year = parseInt(slider.noUiSlider.get());
-	MYNS2.subns.updateData(year);MYNS.subns.updateGlobe(year);
+	mapNamespace.subns.updateData(year);
+    globeNamespace.subns.updateGlobe(year);
+    
+    // set title
+    // document.getElementById("title").innerHTML = "The World's Busiest Container Ports (" + year + ")"
+    mapNamespace.subns.updateTitle(year);
 	// document.getElementById('test').innerHTML = year;
 });

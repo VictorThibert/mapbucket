@@ -1,13 +1,18 @@
-var MYNS2 = MYNS2 || {};
-  MYNS2.subns = (function() {
+let mapNamespace = {};
+  mapNamespace.subns = (function() {
 
-  var margin = {top: 20, right: 10, bottom: 20, left: 10};
+  let margin = {top: 23, right: 10, bottom: 20, left: 10};
   let colorScale = d3.scaleSqrt().domain([15, -15]).range(["#F56D55", "#6e8fb7"]);
-  // set dimensions of graphic
   let width = 800 - margin.left - margin.right;
-  let height = 470 - margin.top - margin.bottom;
+  let height = 490 - margin.top - margin.bottom;
   let radiusDivider = 10;
   let thousand = 100;
+  let sourceText = "Source: Maritime Intelligence - Lloyd's List (2015, 2016)";
+  let title = "The World's Busiest Cargo Ports ";
+  let transform = 1;
+  let zoomK = 1;
+
+
 
   // create zoom object
   let zoom = d3.zoom()
@@ -18,7 +23,7 @@ var MYNS2 = MYNS2 || {};
   // define projection and viewing bounds
   let projection = d3.geoNaturalEarth()
     .scale(160)
-    .translate([width / 2 - 20, height / 2 + 18]) // +50 for antarctica removal
+    .translate([width / 2 - 20, height / 2 + margin.top * 2]) // +50 for antarctica removal
     .precision(.1);
 
   // create path from projection
@@ -66,7 +71,7 @@ var MYNS2 = MYNS2 || {};
 
   // draw scatterplot points
   function drawCircles(year) {
-    d3.csv("../assets/top100ports2015withcoordinates.csv", function(data) {
+    d3.csv("../assets/PORTS2016.csv", function(data) {
       features.selectAll(".marker")
         .data(data)
         .enter()
@@ -77,7 +82,7 @@ var MYNS2 = MYNS2 || {};
         .attr("r", function(d){return Math.sqrt(d['teu']) / radiusDivider }) //consider proportional to square root
         .style("fill", function(d){return colorScale(d['percent'])})
         .on("mouseover", function(d) { 
-          MYNS.subns.step(d['lat'], d['lon']); // call globe spin
+          globeNamespace.subns.step(d['lat'], d['lon']); // call globe spin
           d3.select(this).style("stroke", '#222') 
           tooltip.transition()    
             .duration(100)    
@@ -109,13 +114,13 @@ var MYNS2 = MYNS2 || {};
         .data(data)
         .transition()
         .duration(500)
-        .attr("r", function(d){return Math.sqrt(d['teu']) / radiusDivider}) // Change size
+        .attr("r", function(d){return Math.sqrt(d['teu']) / radiusDivider /  Math.pow(zoomK, 0.5)}) // Change size
         
     }); 
   }
 
   // legend components
-  let verticalShift = 15;
+  let verticalShift = 75; // down all bottom elements
   let legendRadius = d3.scaleSqrt()
       .domain([0, 40000  * thousand])
       .range([0, Math.sqrt(40000)/radiusDivider]);
@@ -128,12 +133,17 @@ var MYNS2 = MYNS2 || {};
     .enter()
     .append("g");
   legend.append("text")
-    .attr("y", function(d) { return - 2 * legendRadius(d) + verticalShift;})
+    .attr("class", "numbers")
+    .attr("y", function(d) { return - 2 * legendRadius(d) - 20 + verticalShift- margin.top*2; })
     .attr("dy", "1.3em")
     .text(d3.format(".1s"));
   legend.append("circle")
-    .attr("cy", function(d) { return - legendRadius(d) + verticalShift;})
+    .attr("cy", function(d) { return - legendRadius(d)  - 20 + verticalShift - margin.top*2;})
     .attr("r", legendRadius);
+  legend.append("text")
+    .attr("y",  -5 + verticalShift - margin.top*2)
+    .attr("x", 0)
+    .text("TEU ")
   
 
   let colorLegendBlockWidth = 30;
@@ -147,47 +157,71 @@ var MYNS2 = MYNS2 || {};
   colorLegend.append("rect")
     .attr("width", colorLegendBlockWidth)
     .attr("height", 10)
-    .attr("y",  + 10)
+    .attr("y",  -20 + verticalShift - margin.top*2)
     .attr("x", function(d, i) {return i * colorLegendBlockWidth})
     .style("fill", function(d) {return colorScale(d)})
     .style("opacity", 0.75)
   colorLegend.append("text")
-    .attr("y",  + 6)
+    .attr("y",  -25 + verticalShift - margin.top*2)
     .attr("x", function(d, i) {return i * colorLegendBlockWidth * 1.05 + colorLegendBlockWidth / 2 - 3})
     .text(function(d) {return d + "%"});
   colorLegend.append("text")
-    .attr("y", 2 * verticalShift)
+    .attr("y", 5+  verticalShift - margin.top*2)
     .attr("x", 70)
     .text("Percentage change year-over-year")
 
-  // d3.select(self.frameElement).style("height", height + "px");
+
+  // in map source
+  let inMapSource = svg.append("g")
+    .attr("class", "inMapSource")
+    .attr("transform", "translate(" + (width/1.25) + "," + (height + verticalShift - margin.top*3) + ")")
+    .append("text")
+    .text(sourceText)
+
+  let inMapTitle = svg.append("g")
+    .attr("class", "inMapTitle")
+    .attr("transform", "translate(" + (margin.left*3) + "," + (margin.top*2.2) + ")")
+    .append("text")
+    .style("text-anchor", "start")
+    .text(title)
+
 
   // adjust graphics on zoom
-  function zoomed() {
-    features.attr("transform", d3.event.transform); // updated for d3 v
+  function zoomed() {  
+    transform = d3.event.transform;  
+    zoomK = d3.event.transform.k;
+  
+    features.attr("transform", transform); // updated for d3 v
     features.select(".boundary")
-      .style("stroke-width", Math.pow(0.5 / d3.event.transform.k, 0.7) + "px");
+      .style("stroke-width", Math.pow(0.5 / zoomK, 0.7) + "px");
     features.selectAll(".marker")  
-      .style("stroke-width", Math.pow(0.5 / d3.event.transform.k, 0.7) + "px");
+      .style("stroke-width", Math.pow(0.5 / zoomK, 0.7) + "px");
     features.selectAll("circle")
       .attr("r", function(d){
           // exponent to slowly make circles bigger
-          return Math.sqrt(d['teu']) / radiusDivider / Math.pow(d3.event.transform.k, 0.5)
+          return Math.sqrt(d['teu']) / radiusDivider / Math.pow(zoomK, 0.5)
         });
 
     legend.selectAll("circle")
       .attr("r", function(d){
-        console.log(d)  
-          return legendRadius(d) * Math.pow(d3.event.transform.k, 0.5)
+          return legendRadius(d) * Math.pow(zoomK, 0.5)
         })
-      .attr("cy", function(d) { return - legendRadius(d* d3.event.transform.k) + verticalShift; })
-    legend.selectAll("text")
-      .attr("y", function(d) { console.log(d);return (- 2 * legendRadius(d* d3.event.transform.k)) + verticalShift; })
+      .attr("cy", function(d) { return - legendRadius(d *zoomK) - 20 + verticalShift - margin.top*2; })
+    legend.selectAll("text.numbers")
+      .attr("y", function(d) { return (- 2 * legendRadius(d* zoomK)) - 20 + verticalShift - margin.top*2; })
   }
+
+  function updateTitle(year) {
+    inMapTitle
+      .text(title + "(" + year + ")")
+  }
+
+
 
   // return public methods
     return {
       drawCircles: drawCircles,
-      updateData: updateData
+      updateData: updateData,
+      updateTitle: updateTitle
     }
 })();
