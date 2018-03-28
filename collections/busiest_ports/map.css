@@ -4,10 +4,19 @@ html {
 }
 
 body {
-  background: -webkit-linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
-  background: linear-gradient(139deg, rgb(54, 135, 208), rgb(59, 66, 191));
+  /*background-image: linear-gradient(to right bottom, #7ea7e4, #6a99eb, #5b8af1, #5379f4, #5666f4);*/
+  background-image: linear-gradient(to right bottom, #7197ec, #668cf0, #5d80f2, #5774f4, #5666f4);
   overflow: auto;
   height: 100%;
+}
+
+#header {
+  font-family: 'PT Sans', sans-serif;
+  /*padding: 40px;*/
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 50px;
+  color: white;
 }
 
 #mainLogo {
@@ -43,8 +52,8 @@ body {
 
 #mapSegment {
   padding: 0px;
-  width:801px;
-  height:491px;
+  width:1001px;
+  height:551px;
 }
 
 .ui.segment {
@@ -56,13 +65,13 @@ body {
 }
 
 #mapHolder {
-  margin-top: 5%;
+  /*margin-top: 5%;*/
   /*margin-left: -45px;*/
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 #centerContainer {
-  max-width: 801px !important;
+  max-width: 10000px !important;
   /*max-height: 430px;*/
 }
 

@@ -81,7 +81,7 @@ var globeNamespace = globeNamespace || {};
         .attr("class", "boundary")
         .attr("d", path);
 
-    d3.csv("../assets/top100ports2015withcoordinates.csv", function(data) {
+    d3.csv("./assets/top100ports2015withcoordinates.csv", function(data) {
       features.selectAll("path.marker")
         .data(data)
         .enter()
@@ -160,7 +160,7 @@ var globeNamespace = globeNamespace || {};
   }
 
   function updateGlobe(year) {
-    d3.csv("../assets/PORTS"+year+".csv", function(data) {
+    d3.csv("./assets/PORTS"+year+".csv", function(data) {
       svg.selectAll("path.marker")
           .data(data) // Update with new data
           .attr("r", function(d){

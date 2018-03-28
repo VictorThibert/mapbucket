@@ -3,16 +3,14 @@ let mapNamespace = {};
 
   let margin = {top: 23, right: 10, bottom: 20, left: 10};
   let colorScale = d3.scaleSqrt().domain([15, -15]).range(["#F56D55", "#6e8fb7"]);
-  let width = 800 - margin.left - margin.right;
-  let height = 490 - margin.top - margin.bottom;
+  let width = 1000 - margin.left - margin.right;
+  let height = 550 - margin.top - margin.bottom;
   let radiusDivider = 10;
   let thousand = 100;
   let sourceText = "Source: Maritime Intelligence - Lloyd's List (2015, 2016)";
   let title = "The World's Busiest Cargo Ports ";
   let transform = 1;
   let zoomK = 1;
-
-
 
   // create zoom object
   let zoom = d3.zoom()
@@ -22,7 +20,7 @@ let mapNamespace = {};
 
   // define projection and viewing bounds
   let projection = d3.geoNaturalEarth()
-    .scale(160)
+    .scale(200)
     .translate([width / 2 - 20, height / 2 + margin.top * 2]) // +50 for antarctica removal
     .precision(.1);
 
@@ -37,7 +35,6 @@ let mapNamespace = {};
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .call(zoom)
-
       
   // create features to house elements of the map
   let features = svg.append("g");   
@@ -48,7 +45,7 @@ let mapNamespace = {};
     .style("opacity", 0);
 
   // read in world coordinates
-  d3.json("../assets/world_minus_antarctica.json", function(error, world) {
+  d3.json("./assets/world_minus_antarctica.json", function(error, world) {
     if (error) throw error;
 
     let countries = topojson.feature(world, world.objects.countries).features;
@@ -64,14 +61,13 @@ let mapNamespace = {};
         .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
         .attr("class", "boundary")
         .attr("d", path);
-
     drawCircles(2015);
     
   });
 
   // draw scatterplot points
   function drawCircles(year) {
-    d3.csv("../assets/PORTS2016.csv", function(data) {
+    d3.csv("./assets/PORTS2016.csv", function(data) {
       features.selectAll(".marker")
         .data(data)
         .enter()
@@ -101,7 +97,7 @@ let mapNamespace = {};
   }
 
   function updateData(year) {
-    d3.csv("../assets/PORTS"+year+".csv", function(data) {
+    d3.csv("./assets/PORTS"+year+".csv", function(data) {
       features.selectAll("circle")
         .data(data)
         .transition()
@@ -215,8 +211,6 @@ let mapNamespace = {};
     inMapTitle
       .text(title + "(" + year + ")")
   }
-
-
 
   // return public methods
     return {
