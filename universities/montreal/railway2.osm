@@ -1,0 +1,1603 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmfilter 1.4.3">
+	<bounds minlat="45.4757" minlon="-73.6602" maxlat="45.5285" maxlon="-73.5461"/>
+	<node id="26232890" lat="45.5612107" lon="-73.547217" version="12" timestamp="2017-10-03T09:17:17Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Viau"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1892890"/>
+		<tag k="wikipedia" v="en:Viau station"/>
+	</node>
+	<node id="26233453" lat="45.5124354" lon="-73.533166" version="13" timestamp="2017-12-19T19:36:29Z" changeset="54768862" uid="2800396" user="AV31">
+		<tag k="alt_name" v="Île-Sainte-Hélène"/>
+		<tag k="name" v="Jean-Drapeau"/>
+		<tag k="network" v="STM"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1675164"/>
+		<tag k="wikipedia" v="en:Jean-Drapeau station"/>
+	</node>
+	<node id="29482323" lat="45.503538" lon="-73.617682" version="14" timestamp="2017-10-03T09:17:17Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="addr:city" v="Montreal"/>
+		<tag k="name" v="Université-de-Montréal"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q256462"/>
+		<tag k="wikipedia" v="en:Université-de-Montréal station"/>
+	</node>
+	<node id="208949374" lat="45.4953505" lon="-73.5798146" version="10" timestamp="2017-10-03T09:17:17Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Guy-Concordia"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q183268"/>
+		<tag k="wikipedia" v="en:Guy-Concordia station"/>
+	</node>
+	<node id="208949376" lat="45.4962346" lon="-73.5790959" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="208949380" lat="45.4968292" lon="-73.5785365" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="208949381" lat="45.5005644" lon="-73.5750245" version="8" timestamp="2017-10-03T09:17:18Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Peel"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1616425"/>
+		<tag k="wikipedia" v="en:Peel station (Montreal Metro)"/>
+	</node>
+	<node id="208949385" lat="45.5040687" lon="-73.5715335" version="8" timestamp="2017-10-03T09:17:18Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="McGill"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1285503"/>
+		<tag k="wikipedia" v="en:McGill station"/>
+	</node>
+	<node id="208949389" lat="45.5068371" lon="-73.5690862" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="208949390" lat="45.5080372" lon="-73.5683367" version="9" timestamp="2017-10-03T09:17:18Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Place-des-Arts"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1889985"/>
+		<tag k="wikipedia" v="en:Place-des-Arts station"/>
+	</node>
+	<node id="208949393" lat="45.5104936" lon="-73.5654898" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="208949396" lat="45.5099531" lon="-73.5665323" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="208949400" lat="45.509046" lon="-73.5677659" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="208949404" lat="45.5095442" lon="-73.5671846" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="208949406" lat="45.5109236" lon="-73.5648225" version="8" timestamp="2017-10-03T09:17:18Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Saint-Laurent"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1705000"/>
+		<tag k="wikipedia" v="en:Saint-Laurent station"/>
+	</node>
+	<node id="208949408" lat="45.513233" lon="-73.5628187" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="208950082" lat="45.5180294" lon="-73.5585442" version="3" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329687" lat="45.4896934" lon="-73.5863732" version="10" timestamp="2017-10-03T09:17:18Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Atwater"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q138609"/>
+		<tag k="wikipedia" v="en:Atwater station"/>
+	</node>
+	<node id="213329690" lat="45.4863616" lon="-73.5898414" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329694" lat="45.4867837" lon="-73.589545" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329697" lat="45.4857933" lon="-73.590087" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329700" lat="45.4848252" lon="-73.5903746" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329703" lat="45.4843902" lon="-73.5903887" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329704" lat="45.4839342" lon="-73.5903255" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329708" lat="45.483387" lon="-73.5899116" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329725" lat="45.4830572" lon="-73.5894626" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329730" lat="45.4825451" lon="-73.5884383" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329733" lat="45.4819067" lon="-73.586965" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329735" lat="45.4812332" lon="-73.5851901" version="2" timestamp="2015-03-31T17:21:32Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329739" lat="45.4810884" lon="-73.583857" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="213329742" lat="45.4811592" lon="-73.5830754" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="213329743" lat="45.4815268" lon="-73.5819356" version="4" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="213329747" lat="45.4818692" lon="-73.5812927" version="4" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="213329761" lat="45.4830579" lon="-73.5794732" version="3" timestamp="2015-08-01T20:57:57Z" changeset="33037439" uid="2800396" user="AV31"/>
+	<node id="213329764" lat="45.4837166" lon="-73.5781154" version="5" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="213329766" lat="45.483641" lon="-73.5768148" version="3" timestamp="2015-08-01T20:59:46Z" changeset="33037470" uid="2800396" user="AV31"/>
+	<node id="213329769" lat="45.4834922" lon="-73.5764065" version="2" timestamp="2015-03-31T17:21:33Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329774" lat="45.4832467" lon="-73.5759084" version="2" timestamp="2015-03-31T17:21:33Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213329779" lat="45.4830011" lon="-73.5755506" version="2" timestamp="2015-03-31T17:21:33Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213331943" lat="45.4824539" lon="-73.5750103" version="2" timestamp="2015-03-31T17:21:33Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213331946" lat="45.4811279" lon="-73.5734599" version="2" timestamp="2015-03-31T17:21:33Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213331949" lat="45.4798581" lon="-73.5719235" version="2" timestamp="2015-03-31T17:21:33Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="213331953" lat="45.4783949" lon="-73.5693747" version="7" timestamp="2017-10-03T09:17:18Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Charlevoix"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1066736"/>
+		<tag k="wikipedia" v="en:Charlevoix station"/>
+	</node>
+	<node id="213403939" lat="45.5240492" lon="-73.5529443" version="8" timestamp="2017-10-03T09:17:18Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Papineau"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1892925"/>
+		<tag k="wikipedia" v="en:Papineau station"/>
+	</node>
+	<node id="213403941" lat="45.519546" lon="-73.5571887" version="9" timestamp="2017-10-03T09:17:19Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Beaudry"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q813363"/>
+		<tag k="wikipedia" v="en:Beaudry station"/>
+	</node>
+	<node id="213481727" lat="45.4966508" lon="-73.6234892" version="13" timestamp="2017-10-03T09:17:19Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Côte-des-Neiges"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1150926"/>
+		<tag k="wikipedia" v="en:Côte-des-Neiges station"/>
+	</node>
+	<node id="213590782" lat="45.4854686" lon="-73.6279802" version="15" timestamp="2017-10-03T09:17:19Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="addr:city" v="Montréal"/>
+		<tag k="addr:country" v="CA"/>
+		<tag k="addr:province" v="QC"/>
+		<tag k="addr:street" v="Chemin Queen Mary"/>
+		<tag k="name" v="Snowdon"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q179391"/>
+		<tag k="wikipedia" v="en:Snowdon station"/>
+	</node>
+	<node id="213613384" lat="45.4869478" lon="-73.6273442" version="10" timestamp="2017-11-14T16:18:09Z" changeset="53775815" uid="290271" user="Zverik">
+		<tag k="name" v="Snowdon"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="213613389" lat="45.4899096" lon="-73.626866" version="9" timestamp="2009-09-09T20:55:11Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="213613395" lat="45.491292" lon="-73.6265822" version="9" timestamp="2009-09-09T20:55:11Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="213656965" lat="45.510131" lon="-73.612563" version="16" timestamp="2017-10-03T09:17:19Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="addr:city" v="Montreal"/>
+		<tag k="name" v="Édouard-Montpetit"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q273870"/>
+		<tag k="wikipedia" v="en:Édouard-Montpetit station"/>
+	</node>
+	<node id="213656974" lat="45.5045977" lon="-73.616749" version="9" timestamp="2009-09-09T20:55:11Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="213656978" lat="45.5069483" lon="-73.6154197" version="9" timestamp="2009-09-09T20:55:10Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="213656984" lat="45.5065081" lon="-73.6156596" version="9" timestamp="2009-09-09T20:55:10Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="213656986" lat="45.5050237" lon="-73.6164806" version="9" timestamp="2009-09-09T20:55:10Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214042655" lat="45.5108906" lon="-73.6120418" version="9" timestamp="2009-09-09T20:55:10Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214042661" lat="45.5117194" lon="-73.6117655" version="9" timestamp="2009-09-09T20:55:10Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214042665" lat="45.5128797" lon="-73.6116734" version="9" timestamp="2009-09-09T20:55:10Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214042669" lat="45.5140952" lon="-73.6116734" version="9" timestamp="2009-09-09T20:55:10Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214042677" lat="45.5150727" lon="-73.6118594" version="9" timestamp="2009-09-09T20:55:10Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214042692" lat="45.516452" lon="-73.6123545" version="9" timestamp="2009-09-09T20:55:09Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214042695" lat="45.5232203" lon="-73.6237717" version="9" timestamp="2017-10-03T09:17:19Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Acadie"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q337414"/>
+		<tag k="wikipedia" v="en:Acadie station"/>
+	</node>
+	<node id="214042699" lat="45.5234445" lon="-73.6243404" version="10" timestamp="2009-09-09T20:55:08Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214052230" lat="45.5244588" lon="-73.6258677" version="9" timestamp="2009-09-09T20:55:08Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214052233" lat="45.5250916" lon="-73.6263171" version="9" timestamp="2009-09-09T20:55:08Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214052235" lat="45.5258301" lon="-73.6265327" version="9" timestamp="2009-09-09T20:55:08Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214052240" lat="45.5264879" lon="-73.626521" version="9" timestamp="2009-09-09T20:55:07Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214052245" lat="45.523806" lon="-73.6250697" version="10" timestamp="2009-09-09T20:55:08Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="214052248" lat="45.5270229" lon="-73.6264726" version="10" timestamp="2012-10-08T17:58:04Z" changeset="13416014" uid="351713" user="tfitzg"/>
+	<node id="214052252" lat="45.5304337" lon="-73.6244545" version="10" timestamp="2017-10-03T09:17:19Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Parc"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q6170020"/>
+		<tag k="wikipedia" v="en:Park Avenue station (Montreal)"/>
+	</node>
+	<node id="214052255" lat="45.5352841" lon="-73.6200292" version="9" timestamp="2017-10-03T09:17:20Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="De Castelnau"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q971995"/>
+		<tag k="wikipedia" v="en:De Castelnau station"/>
+	</node>
+	<node id="214052258" lat="45.5313167" lon="-73.6239637" version="10" timestamp="2012-10-08T17:58:04Z" changeset="13416014" uid="351713" user="tfitzg"/>
+	<node id="214052262" lat="45.5322648" lon="-73.6230603" version="10" timestamp="2012-10-08T17:58:04Z" changeset="13416014" uid="351713" user="tfitzg"/>
+	<node id="214052266" lat="45.5367502" lon="-73.6175245" version="10" timestamp="2011-09-15T22:05:41Z" changeset="9312144" uid="40530" user="thomas_det"/>
+	<node id="214052273" lat="45.5416216" lon="-73.6124331" version="10" timestamp="2011-09-15T22:05:41Z" changeset="9312144" uid="40530" user="thomas_det"/>
+	<node id="214052275" lat="45.5467272" lon="-73.607922" version="9" timestamp="2017-10-03T09:17:20Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Fabre"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1390685"/>
+		<tag k="wikipedia" v="en:Fabre station"/>
+	</node>
+	<node id="214052280" lat="45.5530778" lon="-73.6022739" version="11" timestamp="2017-10-03T09:17:20Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="D’Iberville"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1272978"/>
+		<tag k="wikipedia" v="en:D&#39;Iberville station"/>
+	</node>
+	<node id="217993542" lat="45.5144681" lon="-73.5612299" version="4" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993546" lat="45.509975" lon="-73.550967" version="3" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993550" lat="45.5087919" lon="-73.5469293" version="3" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993555" lat="45.5084646" lon="-73.5445322" version="3" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993558" lat="45.5084174" lon="-73.5425301" version="2" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993562" lat="45.5089344" lon="-73.539418" version="2" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993566" lat="45.5095063" lon="-73.5378972" version="3" timestamp="2017-12-19T19:36:29Z" changeset="54768862" uid="2800396" user="AV31"/>
+	<node id="217993575" lat="45.5212059" lon="-73.5223078" version="2" timestamp="2009-08-29T04:05:29Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993579" lat="45.5206389" lon="-73.5224147" version="2" timestamp="2009-08-29T04:05:29Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993584" lat="45.519648" lon="-73.5227421" version="2" timestamp="2009-08-29T04:05:29Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993588" lat="45.5200425" lon="-73.5225456" version="2" timestamp="2009-08-29T04:05:29Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993589" lat="45.5186824" lon="-73.5237342" version="2" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993593" lat="45.5191353" lon="-73.5231595" version="2" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="217993596" lat="45.5085731" lon="-73.5408544" version="2" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="218271543" lat="45.5539403" lon="-73.6014748" version="9" timestamp="2009-09-09T20:55:05Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="218271544" lat="45.5545239" lon="-73.6011049" version="9" timestamp="2009-09-09T20:55:05Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="218271548" lat="45.5551486" lon="-73.600957" version="9" timestamp="2009-09-09T20:55:05Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="218271551" lat="45.5558024" lon="-73.6010179" version="10" timestamp="2015-08-08T21:04:46Z" changeset="33206455" uid="2845963" user="minewman"/>
+	<node id="218271556" lat="45.5563005" lon="-73.6011419" version="9" timestamp="2009-09-09T20:55:05Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="218271560" lat="45.5569852" lon="-73.6012948" version="9" timestamp="2009-09-09T20:55:05Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="218271582" lat="45.5575077" lon="-73.6013819" version="9" timestamp="2009-09-09T20:55:04Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="218271630" lat="45.5580386" lon="-73.6013455" version="9" timestamp="2009-09-09T20:55:04Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="218271640" lat="45.5586422" lon="-73.6009601" version="9" timestamp="2009-09-09T20:55:04Z" changeset="2429654" uid="169308" user="bedch"/>
+	<node id="218271645" lat="45.559813" lon="-73.5999419" version="10" timestamp="2017-10-03T09:17:20Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="addr:city" v="Montréal"/>
+		<tag k="addr:street" v="Boulevard Saint-Michel"/>
+		<tag k="name" v="Saint-Michel"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q176603"/>
+		<tag k="wikipedia" v="en:Saint-Michel station (Montreal Metro)"/>
+	</node>
+	<node id="218283822" lat="45.528133" lon="-73.5491143" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283826" lat="45.5293032" lon="-73.5486767" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283828" lat="45.5311049" lon="-73.5491999" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283833" lat="45.5322548" lon="-73.5507531" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283836" lat="45.5315764" lon="-73.5496473" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283841" lat="45.5304128" lon="-73.5487474" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283847" lat="45.5288237" lon="-73.5488017" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283853" lat="45.5298672" lon="-73.54867" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283857" lat="45.5329932" lon="-73.552479" version="8" timestamp="2017-10-03T09:17:20Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Frontenac"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q183022"/>
+		<tag k="wikipedia" v="en:Frontenac station"/>
+	</node>
+	<node id="218283863" lat="45.5307955" lon="-73.5489186" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283867" lat="45.533952" lon="-73.5548505" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283869" lat="45.5343883" lon="-73.5556176" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283874" lat="45.5348176" lon="-73.5560117" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283877" lat="45.5352469" lon="-73.5562721" version="2" timestamp="2015-03-31T17:21:34Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283883" lat="45.5360899" lon="-73.5565683" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283887" lat="45.5370384" lon="-73.5566799" version="3" timestamp="2015-05-21T11:58:58Z" changeset="31339374" uid="2845963" user="minewman"/>
+	<node id="218283892" lat="45.5381574" lon="-73.5565485" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283897" lat="45.5388899" lon="-73.5562103" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218283902" lat="45.5398113" lon="-73.5556291" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356332" lat="45.5409779" lon="-73.5545546" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356337" lat="45.541717" lon="-73.5542209" version="9" timestamp="2017-10-10T02:40:07Z" changeset="52776726" uid="3097759" user="kousu">
+		<tag k="addr:housenumber" v="3100"/>
+		<tag k="addr:street" v="Rue Hochelaga"/>
+		<tag k="name" v="Préfontaine"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1827087"/>
+		<tag k="wikipedia" v="en:Préfontaine station"/>
+	</node>
+	<node id="218356349" lat="45.5468903" lon="-73.5511268" version="7" timestamp="2017-10-03T09:17:20Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Joliette"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1249429"/>
+		<tag k="wikipedia" v="en:Joliette station (Montreal Metro)"/>
+	</node>
+	<node id="218356354" lat="45.5431339" lon="-73.5533742" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356356" lat="45.5477362" lon="-73.55075" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356358" lat="45.5483343" lon="-73.5506449" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356363" lat="45.5488878" lon="-73.5507455" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356370" lat="45.5499515" lon="-73.5511983" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356375" lat="45.5509936" lon="-73.5517805" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356380" lat="45.551928" lon="-73.5519817" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356384" lat="45.552503" lon="-73.5519386" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356387" lat="45.5532145" lon="-73.5517517" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356392" lat="45.5544883" lon="-73.5514058" version="3" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356399" lat="45.5562763" lon="-73.5503358" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="218356400" lat="45.5571963" lon="-73.5497033" version="2" timestamp="2015-03-31T17:21:35Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="225689808" lat="45.4569139" lon="-73.5820639" version="8" timestamp="2017-10-03T09:17:21Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Jolicoeur"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1702643"/>
+		<tag k="wikipedia" v="en:Jolicoeur station"/>
+	</node>
+	<node id="225690774" lat="45.4510516" lon="-73.5932029" version="10" timestamp="2017-10-03T09:17:21Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Monk"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1550415"/>
+		<tag k="wikipedia" v="en:Monk station"/>
+	</node>
+	<node id="246654572" lat="45.5643658" lon="-73.544852" version="3" timestamp="2017-03-06T16:27:44Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="246654573" lat="45.5656449" lon="-73.5448891" version="3" timestamp="2017-03-06T16:27:44Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="246654575" lat="45.5666344" lon="-73.5453295" version="3" timestamp="2017-03-06T16:27:44Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="246654576" lat="45.5691651" lon="-73.5472116" version="10" timestamp="2017-10-03T09:17:21Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="internet_access" v="no"/>
+		<tag k="name" v="Assomption"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q538758"/>
+		<tag k="wikipedia" v="en:Assomption station"/>
+	</node>
+	<node id="246654577" lat="45.571023" lon="-73.5487152" version="3" timestamp="2017-03-06T16:27:44Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="246654578" lat="45.5726268" lon="-73.5491426" version="3" timestamp="2017-03-06T16:27:44Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="246654579" lat="45.573113" lon="-73.5490695" version="3" timestamp="2017-03-06T16:27:44Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="246654580" lat="45.5736399" lon="-73.5488633" version="3" timestamp="2017-03-06T16:27:44Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="246655684" lat="45.5768391" lon="-73.5467179" version="8" timestamp="2017-10-03T09:17:21Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Cadillac"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q743385"/>
+		<tag k="wikipedia" v="en:Cadillac station"/>
+	</node>
+	<node id="246656707" lat="45.5827497" lon="-73.5431832" version="8" timestamp="2017-10-03T09:17:21Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Langelier"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1705135"/>
+		<tag k="wikipedia" v="en:Langelier station"/>
+	</node>
+	<node id="246656708" lat="45.5891558" lon="-73.53942" version="8" timestamp="2017-10-03T09:17:21Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Radisson"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1827231"/>
+		<tag k="wikipedia" v="en:Radisson station"/>
+	</node>
+	<node id="246656713" lat="45.5964086" lon="-73.5354197" version="9" timestamp="2017-10-03T09:17:22Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Honoré-Beaugrand"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1627267"/>
+		<tag k="wikipedia" v="en:Honoré-Beaugrand station"/>
+	</node>
+	<node id="264271702" lat="45.5542002" lon="-73.5515006" version="8" timestamp="2017-10-03T09:17:22Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Pie IX"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1892913"/>
+		<tag k="wikipedia" v="en:Pie-IX station"/>
+	</node>
+	<node id="300158980" lat="45.5149673" lon="-73.5612041" version="3" timestamp="2017-11-14T16:18:09Z" changeset="53775815" uid="290271" user="Zverik">
+		<tag k="name" v="Berri-UQAM"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="300158981" lat="45.5147027" lon="-73.56135" version="2" timestamp="2009-08-29T04:05:28Z" changeset="2296809" uid="162534" user="pimarc"/>
+	<node id="311564344" lat="45.4709055" lon="-73.5661442" version="9" timestamp="2017-10-03T09:17:22Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="LaSalle"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1798572"/>
+		<tag k="wikipedia" v="en:LaSalle station (Montreal Metro)"/>
+	</node>
+	<node id="311564349" lat="45.4628739" lon="-73.5669594" version="8" timestamp="2017-10-03T09:17:22Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="De l&#39;Église"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1180127"/>
+		<tag k="wikipedia" v="en:De L&#39;Église station"/>
+	</node>
+	<node id="311564354" lat="45.4614403" lon="-73.5673424" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564358" lat="45.4605115" lon="-73.5678571" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564362" lat="45.4596579" lon="-73.5687483" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564377" lat="45.4740055" lon="-73.5659426" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564385" lat="45.475074" lon="-73.5660655" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564405" lat="45.4597521" lon="-73.5802342" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564410" lat="45.4596446" lon="-73.5812251" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564423" lat="45.4551903" lon="-73.5825044" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564426" lat="45.454272" lon="-73.5830985" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564430" lat="45.452834" lon="-73.5854492" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564433" lat="45.4519282" lon="-73.5879655" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564443" lat="45.4507286" lon="-73.5947263" version="11" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564447" lat="45.4497758" lon="-73.5966478" version="9" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564453" lat="45.4488003" lon="-73.59824" version="3" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564460" lat="45.4478489" lon="-73.600124" version="3" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564466" lat="45.4462383" lon="-73.6036218" version="7" timestamp="2017-10-03T09:17:22Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Angrignon"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q543509"/>
+		<tag k="wikipedia" v="en:Angrignon station"/>
+	</node>
+	<node id="311564473" lat="45.4593092" lon="-73.5816903" version="3" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564482" lat="45.4597325" lon="-73.5808588" version="3" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="311564489" lat="45.4534224" lon="-73.5843234" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="437670450" lat="45.4826858" lon="-73.5798415" version="11" timestamp="2017-12-22T21:20:04Z" changeset="54850623" uid="18069" user="Claudius Henrichs">
+		<tag k="name" v="Lionel-Groulx"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="437756062" lat="45.5503321" lon="-73.6538442" version="7" timestamp="2016-04-26T17:42:39Z" changeset="38895156" uid="2567631" user="Martin868"/>
+	<node id="437808230" lat="45.510082" lon="-73.5564161" version="10" timestamp="2017-10-03T09:17:23Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Champ-de-Mars"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="yes"/>
+		<tag k="wikidata" v="Q1061011"/>
+		<tag k="wikipedia" v="en:Champ-de-Mars station (Montreal Metro)"/>
+	</node>
+	<node id="437811718" lat="45.5144643" lon="-73.6833019" version="8" timestamp="2017-10-03T09:17:23Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Côte-Vertu"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q543270"/>
+		<tag k="wikipedia" v="en:Côte-Vertu station"/>
+	</node>
+	<node id="437811726" lat="45.5055087" lon="-73.6685818" version="2" timestamp="2010-03-20T20:27:21Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811729" lat="45.5034732" lon="-73.6656415" version="2" timestamp="2010-03-20T20:27:22Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811732" lat="45.5010883" lon="-73.6624814" version="2" timestamp="2010-03-20T20:27:22Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811737" lat="45.5002999" lon="-73.6616085" version="6" timestamp="2017-10-03T09:17:23Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="De La Savane"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q652128"/>
+		<tag k="wikipedia" v="en:De La Savane station"/>
+	</node>
+	<node id="437811740" lat="45.4989001" lon="-73.6593554" version="2" timestamp="2010-03-20T20:27:22Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811742" lat="45.4951187" lon="-73.6532556" version="2" timestamp="2010-03-20T20:27:22Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811746" lat="45.4948911" lon="-73.6529005" version="7" timestamp="2017-10-03T09:17:23Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Namur"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1892936"/>
+		<tag k="wikipedia" v="en:Namur station (Montreal Metro)"/>
+	</node>
+	<node id="437811748" lat="45.4940351" lon="-73.650955" version="2" timestamp="2010-03-20T20:27:23Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811750" lat="45.4938016" lon="-73.6498274" version="2" timestamp="2010-03-20T20:27:23Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811753" lat="45.4937661" lon="-73.6481598" version="2" timestamp="2010-03-20T20:27:23Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811754" lat="45.4940677" lon="-73.6462616" version="2" timestamp="2010-03-20T20:27:23Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811756" lat="45.4943318" lon="-73.6449162" version="2" timestamp="2010-03-20T20:27:23Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811758" lat="45.494525" lon="-73.6439428" version="2" timestamp="2010-03-20T20:27:24Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811760" lat="45.4947276" lon="-73.6430258" version="2" timestamp="2010-03-20T20:27:24Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811762" lat="45.4948946" lon="-73.6417517" version="2" timestamp="2010-03-20T20:27:24Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811764" lat="45.4949782" lon="-73.6406029" version="2" timestamp="2010-03-20T20:27:24Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811769" lat="45.4948111" lon="-73.6393288" version="2" timestamp="2010-03-20T20:27:24Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811771" lat="45.4943764" lon="-73.6378267" version="6" timestamp="2017-10-03T09:17:23Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Plamondon"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q980309"/>
+		<tag k="wikipedia" v="en:Plamondon station"/>
+	</node>
+	<node id="437811772" lat="45.4923068" lon="-73.6328648" version="6" timestamp="2017-10-03T09:17:23Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Côte-Sainte-Catherine"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1150920"/>
+		<tag k="wikipedia" v="en:Côte-Sainte-Catherine station"/>
+	</node>
+	<node id="437811773" lat="45.4905225" lon="-73.6291642" version="2" timestamp="2010-03-20T20:27:24Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811774" lat="45.4901705" lon="-73.6284208" version="2" timestamp="2010-03-20T20:27:24Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811775" lat="45.4897437" lon="-73.6276963" version="2" timestamp="2010-03-20T20:27:25Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811777" lat="45.4894361" lon="-73.6273887" version="2" timestamp="2010-03-20T20:27:25Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811778" lat="45.4889795" lon="-73.6271406" version="2" timestamp="2010-03-20T20:27:25Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811781" lat="45.4885429" lon="-73.6270215" version="2" timestamp="2010-03-20T20:27:25Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811788" lat="45.4877191" lon="-73.6271207" version="2" timestamp="2010-03-20T20:27:25Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811793" lat="45.4850223" lon="-73.6277429" version="3" timestamp="2014-08-18T18:44:05Z" changeset="24840826" uid="2271743" user="MikeTwo"/>
+	<node id="437811795" lat="45.4845433" lon="-73.6274681" version="2" timestamp="2010-03-20T20:27:26Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811798" lat="45.4836799" lon="-73.6271207" version="2" timestamp="2010-03-20T20:27:26Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811800" lat="45.4830844" lon="-73.6267138" version="2" timestamp="2010-03-20T20:27:27Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811802" lat="45.4826883" lon="-73.6262993" version="2" timestamp="2010-03-20T20:27:27Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811804" lat="45.4800688" lon="-73.6206883" version="2" timestamp="2010-03-20T20:27:27Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811806" lat="45.4796502" lon="-73.6197073" version="7" timestamp="2017-10-03T09:17:24Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Villa-Maria"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1480912"/>
+		<tag k="wikipedia" v="en:Villa-Maria station"/>
+	</node>
+	<node id="437811809" lat="45.479293" lon="-73.618711" version="2" timestamp="2010-03-20T20:27:27Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811814" lat="45.4789939" lon="-73.6177695" version="2" timestamp="2010-03-20T20:27:27Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811817" lat="45.4776986" lon="-73.6148033" version="2" timestamp="2010-03-20T20:27:27Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811821" lat="45.4752403" lon="-73.6096346" version="2" timestamp="2010-03-20T20:27:27Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811825" lat="45.4739705" lon="-73.6065618" version="2" timestamp="2010-03-20T20:27:27Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811830" lat="45.47376" lon="-73.6058111" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811832" lat="45.4736548" lon="-73.6052709" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811835" lat="45.4736408" lon="-73.6047517" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811837" lat="45.473732" lon="-73.6042887" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811839" lat="45.4739214" lon="-73.6037345" version="7" timestamp="2017-10-03T09:17:24Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Vendôme"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1593502"/>
+		<tag k="wikipedia" v="en:Vendôme station"/>
+	</node>
+	<node id="437811842" lat="45.4751491" lon="-73.601286" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811847" lat="45.4758998" lon="-73.5997776" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811849" lat="45.4769662" lon="-73.5984306" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811851" lat="45.4776888" lon="-73.5975887" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811853" lat="45.4779764" lon="-73.5970696" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811855" lat="45.478257" lon="-73.5964522" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811857" lat="45.4784535" lon="-73.5958208" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811859" lat="45.4784815" lon="-73.595021" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811860" lat="45.4784184" lon="-73.5941932" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811862" lat="45.478257" lon="-73.5934635" version="2" timestamp="2010-03-20T20:27:28Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811864" lat="45.4780817" lon="-73.5929935" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811868" lat="45.477787" lon="-73.5924603" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811869" lat="45.4772608" lon="-73.5915272" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811871" lat="45.4770363" lon="-73.590994" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811873" lat="45.47691" lon="-73.5904819" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811875" lat="45.4768469" lon="-73.5898996" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811877" lat="45.4767978" lon="-73.589184" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811879" lat="45.4767767" lon="-73.5883421" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811882" lat="45.4769171" lon="-73.5875073" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811884" lat="45.4771907" lon="-73.5866584" version="11" timestamp="2017-10-03T09:17:24Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Place Saint-Henri"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1632321"/>
+		<tag k="wikipedia" v="en:Place-Saint-Henri station"/>
+	</node>
+	<node id="437811888" lat="45.477808" lon="-73.5852342" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811894" lat="45.4783132" lon="-73.5844484" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811896" lat="45.4788393" lon="-73.58381" version="2" timestamp="2010-03-20T20:27:29Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811897" lat="45.4797308" lon="-73.5830959" version="3" timestamp="2010-12-14T18:15:23Z" changeset="6660777" uid="246" user="moyogo"/>
+	<node id="437811899" lat="45.480968" lon="-73.5821853" version="3" timestamp="2010-12-14T18:15:23Z" changeset="6660777" uid="246" user="moyogo"/>
+	<node id="437811901" lat="45.4820972" lon="-73.5807119" version="4" timestamp="2018-01-10T10:43:14Z" changeset="55318603" uid="290271" user="Zverik">
+		<tag k="name" v="Lionel-Groulx"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="437811905" lat="45.4832514" lon="-73.5787926" version="3" timestamp="2015-08-01T20:57:57Z" changeset="33037439" uid="2800396" user="AV31"/>
+	<node id="437811907" lat="45.4839895" lon="-73.5775941" version="3" timestamp="2015-08-01T20:57:57Z" changeset="33037439" uid="2800396" user="AV31"/>
+	<node id="437811908" lat="45.4844848" lon="-73.5772715" version="3" timestamp="2015-08-01T20:57:57Z" changeset="33037439" uid="2800396" user="AV31"/>
+	<node id="437811911" lat="45.4851801" lon="-73.5770244" version="4" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811915" lat="45.4856416" lon="-73.576927" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811917" lat="45.4863606" lon="-73.5769397" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811919" lat="45.486783" lon="-73.5769691" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811921" lat="45.48742" lon="-73.5770016" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811924" lat="45.488977" lon="-73.5765137" version="6" timestamp="2017-10-03T09:17:24Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Georges-Vanier"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1508769"/>
+		<tag k="wikipedia" v="en:Georges-Vanier station"/>
+	</node>
+	<node id="437811927" lat="45.4896219" lon="-73.5761619" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811931" lat="45.4898872" lon="-73.5760142" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811935" lat="45.4906261" lon="-73.5755693" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811938" lat="45.4913328" lon="-73.5751112" version="4" timestamp="2017-07-05T16:09:45Z" changeset="50062842" uid="549389" user="Kaligrafy"/>
+	<node id="437811940" lat="45.4921287" lon="-73.5744049" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="437811942" lat="45.4926994" lon="-73.5736821" version="2" timestamp="2010-03-20T20:27:31Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811946" lat="45.4982692" lon="-73.5670909" version="9" timestamp="2018-01-26T03:44:07Z" changeset="55759553" uid="3418895" user="YanTremblay">
+		<tag k="addr:city" v="Montreal"/>
+		<tag k="addr:country" v="CA"/>
+		<tag k="addr:housenumber" v="1166"/>
+		<tag k="addr:province" v="QC"/>
+		<tag k="addr:street" v="Rue de La Gauchetière Ouest"/>
+		<tag k="name" v="Bonaventure"/>
+		<tag k="note" v="Elevator but not wheelchair accessible"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="phone" v="+1 514 786 4636"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="website" v="http://www.stm.info/"/>
+		<tag k="wheelchair" v="limited"/>
+		<tag k="wikidata" v="Q525279"/>
+		<tag k="wikipedia" v="en:Bonaventure station"/>
+	</node>
+	<node id="437811948" lat="45.5020325" lon="-73.5631239" version="8" timestamp="2017-10-03T09:17:25Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Square-Victoria-OACI"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1463336"/>
+		<tag k="wikipedia" v="en:Square-Victoria-OACI station"/>
+	</node>
+	<node id="437811950" lat="45.5060634" lon="-73.5597607" version="11" timestamp="2017-10-03T09:17:25Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Place d’Armes"/>
+		<tag k="name:ko" v="다름광장"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1495111"/>
+		<tag k="wikipedia" v="en:Place-d&#39;Armes station"/>
+	</node>
+	<node id="437811954" lat="45.5115502" lon="-73.5551573" version="3" timestamp="2011-02-27T14:55:25Z" changeset="7411581" uid="351713" user="tfitzg"/>
+	<node id="437811958" lat="45.5119616" lon="-73.5549149" version="3" timestamp="2011-03-07T13:18:51Z" changeset="7484112" uid="351713" user="tfitzg"/>
+	<node id="437811960" lat="45.5123173" lon="-73.5549107" version="2" timestamp="2010-03-20T20:27:32Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811961" lat="45.5125867" lon="-73.5551695" version="2" timestamp="2010-03-20T20:27:32Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811963" lat="45.512877" lon="-73.5556437" version="2" timestamp="2010-03-20T20:27:32Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437811967" lat="45.5172297" lon="-73.5648811" version="3" timestamp="2010-09-03T02:37:30Z" changeset="5667363" uid="259657" user="jptitanic13"/>
+	<node id="437811969" lat="45.5186543" lon="-73.568089" version="8" timestamp="2017-10-03T09:17:25Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Sherbrooke"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q932594"/>
+		<tag k="wikipedia" v="en:Sherbrooke station"/>
+	</node>
+	<node id="437811971" lat="45.5247175" lon="-73.5814435" version="8" timestamp="2017-10-03T09:17:25Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Mont-Royal"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1632640"/>
+		<tag k="wikipedia" v="en:Mont-Royal station (Montreal Metro)"/>
+	</node>
+	<node id="437811977" lat="45.5282239" lon="-73.5886089" version="10" timestamp="2017-10-03T09:17:26Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Laurier"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1632291"/>
+		<tag k="wikipedia" v="en:Laurier station (Montreal Metro)"/>
+	</node>
+	<node id="437811980" lat="45.5288683" lon="-73.5900609" version="3" timestamp="2017-03-17T01:33:47Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="437811982" lat="45.5313686" lon="-73.5969216" version="3" timestamp="2017-03-17T01:33:47Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="437811986" lat="45.5315669" lon="-73.5974076" version="8" timestamp="2017-10-03T09:17:26Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Rosemont"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="platforms" v="2"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1633672"/>
+		<tag k="wikipedia" v="en:Rosemont station (Montreal Metro)"/>
+	</node>
+	<node id="437811988" lat="45.5351456" lon="-73.6045785" version="7" timestamp="2017-10-03T09:17:26Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Beaubien"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q813338"/>
+		<tag k="wikipedia" v="en:Beaubien station"/>
+	</node>
+	<node id="437811991" lat="45.5386998" lon="-73.6124143" version="3" timestamp="2011-09-15T22:05:41Z" changeset="9312144" uid="40530" user="thomas_det"/>
+	<node id="437811993" lat="45.5391623" lon="-73.6134985" version="9" timestamp="2017-10-03T09:17:26Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Jean-Talon"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1386163"/>
+		<tag k="wikipedia" v="en:Jean-Talon station (Montreal Metro)"/>
+	</node>
+	<node id="437811997" lat="45.5401057" lon="-73.6178604" version="2" timestamp="2010-03-20T20:27:34Z" changeset="4184432" uid="246091" user="loosepiston"/>
+	<node id="437812001" lat="45.543239" lon="-73.6286287" version="7" timestamp="2017-10-03T09:17:26Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Jarry"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q1634277"/>
+		<tag k="wikipedia" v="en:Jarry station"/>
+	</node>
+	<node id="437812003" lat="45.5460935" lon="-73.6388212" version="7" timestamp="2017-10-03T09:17:27Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Crémazie"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1142496"/>
+		<tag k="wikipedia" v="en:Crémazie station"/>
+	</node>
+	<node id="438843513" lat="45.5153717" lon="-73.5609668" version="10" timestamp="2017-10-03T09:17:27Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Berri-UQAM"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wheelchair" v="limited"/>
+		<tag k="wikidata" v="Q827090"/>
+		<tag k="wikipedia" v="en:Berri-UQAM station"/>
+	</node>
+	<node id="561032789" lat="45.4868548" lon="-73.58946" version="2" timestamp="2015-03-31T17:21:40Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="565306948" lat="45.4761569" lon="-73.566601" version="2" timestamp="2015-03-31T17:21:40Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="976529040" lat="45.5396532" lon="-73.5557357" version="4" timestamp="2017-07-05T16:09:45Z" changeset="50062842" uid="549389" user="Kaligrafy"/>
+	<node id="1038439032" lat="45.481439" lon="-73.5816913" version="1" timestamp="2010-12-14T18:15:19Z" changeset="6660777" uid="246" user="moyogo"/>
+	<node id="1104599383" lat="45.4474553" lon="-73.6011735" version="2" timestamp="2015-03-31T17:21:27Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1104599505" lat="45.4469257" lon="-73.6023947" version="2" timestamp="2015-03-31T17:21:28Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1191042138" lat="45.5124687" lon="-73.5549989" version="1" timestamp="2011-03-07T13:18:51Z" changeset="7484112" uid="351713" user="tfitzg"/>
+	<node id="1191042139" lat="45.5121355" lon="-73.5548803" version="1" timestamp="2011-03-07T13:18:51Z" changeset="7484112" uid="351713" user="tfitzg"/>
+	<node id="1191042140" lat="45.5127313" lon="-73.5553857" version="1" timestamp="2011-03-07T13:18:51Z" changeset="7484112" uid="351713" user="tfitzg"/>
+	<node id="1191042143" lat="45.5117347" lon="-73.5550126" version="1" timestamp="2011-03-07T13:18:51Z" changeset="7484112" uid="351713" user="tfitzg"/>
+	<node id="1243290561" lat="45.4583724" lon="-73.5819435" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1243290573" lat="45.4590648" lon="-73.5818156" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1243290584" lat="45.4587402" lon="-73.581892" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1243290588" lat="45.4595093" lon="-73.5814967" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1243290589" lat="45.4594089" lon="-73.5691789" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1243290590" lat="45.4593176" lon="-73.5702703" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1243290592" lat="45.459311" lon="-73.5709449" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1243290596" lat="45.4560858" lon="-73.582112" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1243290600" lat="45.4593346" lon="-73.5697076" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1244643971" lat="45.5551719" lon="-73.5510673" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1244643972" lat="45.5548686" lon="-73.551239" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1244643973" lat="45.555762" lon="-73.5506879" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1299955161" lat="45.5249658" lon="-73.521988" version="6" timestamp="2017-10-03T09:17:28Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="alt_name" v="Longueuil"/>
+		<tag k="name" v="Longueuil–Université-de-Sherbrooke"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="short_name" v="Longueuil-UdeS"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1869604"/>
+		<tag k="wikipedia" v="en:Longueuil station"/>
+	</node>
+	<node id="1307181336" lat="45.4774179" lon="-73.5861343" version="1" timestamp="2011-05-31T20:15:38Z" changeset="8305265" uid="351713" user="tfitzg"/>
+	<node id="1510041305" lat="45.4777984" lon="-73.5973909" version="1" timestamp="2011-11-20T16:53:39Z" changeset="9886664" uid="556515" user="cesine"/>
+	<node id="1701365155" lat="45.4727535" lon="-73.5660158" version="3" timestamp="2017-06-21T15:28:06Z" changeset="49723737" uid="19488" user="miluethi"/>
+	<node id="1764309495" lat="45.4464357" lon="-73.6032483" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1764309496" lat="45.446476" lon="-73.6031781" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1764309497" lat="45.4465193" lon="-73.6031027" version="2" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1764309503" lat="45.4695795" lon="-73.5662658" version="3" timestamp="2015-03-31T17:21:29Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="1765620883" lat="45.5173261" lon="-73.6127415" version="1" timestamp="2012-05-25T21:55:25Z" changeset="11702393" uid="28895" user="PurpleMustang"/>
+	<node id="1765620885" lat="45.5181795" lon="-73.6131332" version="1" timestamp="2012-05-25T21:55:25Z" changeset="11702393" uid="28895" user="PurpleMustang"/>
+	<node id="1765620886" lat="45.5188456" lon="-73.6135298" version="1" timestamp="2012-05-25T21:55:25Z" changeset="11702393" uid="28895" user="PurpleMustang"/>
+	<node id="1765620888" lat="45.5195265" lon="-73.6142033" version="1" timestamp="2012-05-25T21:55:25Z" changeset="11702393" uid="28895" user="PurpleMustang"/>
+	<node id="1765620890" lat="45.5201525" lon="-73.6150126" version="1" timestamp="2012-05-25T21:55:25Z" changeset="11702393" uid="28895" user="PurpleMustang"/>
+	<node id="1952957736" lat="45.5316182" lon="-73.6237971" version="1" timestamp="2012-10-08T17:57:53Z" changeset="13416014" uid="351713" user="tfitzg"/>
+	<node id="1952957817" lat="45.5318138" lon="-73.6236042" version="1" timestamp="2012-10-08T17:57:55Z" changeset="13416014" uid="351713" user="tfitzg"/>
+	<node id="2106373199" lat="45.5342004" lon="-73.6211202" version="1" timestamp="2013-01-11T21:46:52Z" changeset="14615895" uid="690266" user="ptaff"/>
+	<node id="2151301396" lat="45.4944911" lon="-73.6382231" version="1" timestamp="2013-02-12T03:09:28Z" changeset="15001791" uid="110457" user="elpedalo"/>
+	<node id="2183756831" lat="45.5431099" lon="-73.6281851" version="1" timestamp="2013-03-03T15:02:49Z" changeset="15234481" uid="417398" user="saintam1"/>
+	<node id="2295377453" lat="45.5432236" lon="-73.6286006" version="2" timestamp="2016-08-22T15:21:36Z" changeset="41617039" uid="690266" user="ptaff"/>
+	<node id="2295377454" lat="45.5432011" lon="-73.6285234" version="2" timestamp="2016-08-22T15:21:37Z" changeset="41617039" uid="690266" user="ptaff"/>
+	<node id="2295381846" lat="45.5433201" lon="-73.6289182" version="1" timestamp="2013-05-08T03:44:01Z" changeset="16022536" uid="866791" user="Philippecoss"/>
+	<node id="2295381847" lat="45.5433785" lon="-73.6291268" version="1" timestamp="2013-05-08T03:44:01Z" changeset="16022536" uid="866791" user="Philippecoss"/>
+	<node id="2471652365" lat="45.4593608" lon="-73.5718356" version="8" timestamp="2017-10-03T09:17:28Z" changeset="52589431" uid="417398" user="saintam1">
+		<tag k="name" v="Verdun"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="toilets:wheelchair" v="no"/>
+		<tag k="wheelchair" v="no"/>
+		<tag k="wikidata" v="Q586219"/>
+		<tag k="wikipedia" v="en:Verdun station"/>
+	</node>
+	<node id="2496687778" lat="45.4640241" lon="-73.5668296" version="2" timestamp="2015-03-31T17:21:36Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="3313314964" lat="45.5056205" lon="-73.6687653" version="1" timestamp="2015-01-27T02:25:05Z" changeset="28433716" uid="1964421" user="started_contributing"/>
+	<node id="3381354366" lat="45.5127971" lon="-73.5632093" version="2" timestamp="2015-03-31T17:21:39Z" changeset="29882914" uid="2512300" user="samely"/>
+	<node id="3483389317" lat="45.5108233" lon="-73.5529047" version="1" timestamp="2015-04-28T05:30:30Z" changeset="30569061" uid="2845963" user="minewman"/>
+	<node id="3483395462" lat="45.5108651" lon="-73.553" version="1" timestamp="2015-04-28T05:33:20Z" changeset="30569061" uid="2845963" user="minewman"/>
+	<node id="3488024524" lat="45.5239773" lon="-73.5530159" version="1" timestamp="2015-04-30T05:23:01Z" changeset="30645689" uid="2845963" user="minewman"/>
+	<node id="3491286971" lat="45.4869112" lon="-73.5893986" version="1" timestamp="2015-05-01T15:34:58Z" changeset="30694635" uid="2845963" user="minewman"/>
+	<node id="3491302569" lat="45.4871514" lon="-73.5891269" version="1" timestamp="2015-05-01T15:41:20Z" changeset="30694635" uid="2845963" user="minewman"/>
+	<node id="3492954116" lat="45.4777329" lon="-73.5975091" version="1" timestamp="2015-05-02T10:11:52Z" changeset="30716548" uid="2845963" user="minewman"/>
+	<node id="3492972659" lat="45.4753199" lon="-73.6009614" version="1" timestamp="2015-05-02T10:23:01Z" changeset="30716548" uid="2845963" user="minewman"/>
+	<node id="3493230440" lat="45.4782978" lon="-73.5962968" version="2" timestamp="2016-08-26T19:32:57Z" changeset="41722106" uid="2567631" user="Martin868"/>
+	<node id="3493230456" lat="45.478272" lon="-73.5964041" version="1" timestamp="2015-05-02T13:54:27Z" changeset="30716548" uid="2845963" user="minewman"/>
+	<node id="3493230462" lat="45.4782345" lon="-73.5965105" version="2" timestamp="2016-08-26T19:32:57Z" changeset="41722106" uid="2567631" user="Martin868"/>
+	<node id="3500101541" lat="45.4862617" lon="-73.5898846" version="1" timestamp="2015-05-05T22:37:56Z" changeset="30825788" uid="2845963" user="minewman"/>
+	<node id="3500134056" lat="45.4853889" lon="-73.5902071" version="1" timestamp="2015-05-05T23:04:55Z" changeset="30825788" uid="2845963" user="minewman"/>
+	<node id="3500134279" lat="45.4853161" lon="-73.5902254" version="1" timestamp="2015-05-05T23:05:27Z" changeset="30825788" uid="2845963" user="minewman"/>
+	<node id="3503150012" lat="45.4908065" lon="-73.5849728" version="1" timestamp="2015-05-07T16:04:43Z" changeset="30875271" uid="2845963" user="minewman"/>
+	<node id="3515974080" lat="45.5114004" lon="-73.5542227" version="1" timestamp="2015-05-13T20:28:50Z" changeset="31113848" uid="2845963" user="minewman"/>
+	<node id="3515974084" lat="45.5112891" lon="-73.5539685" version="1" timestamp="2015-05-13T20:28:50Z" changeset="31113848" uid="2845963" user="minewman"/>
+	<node id="3516469676" lat="45.51299" lon="-73.5578452" version="1" timestamp="2015-05-14T03:36:59Z" changeset="31117750" uid="2845963" user="minewman"/>
+	<node id="3516469679" lat="45.5124756" lon="-73.5566731" version="1" timestamp="2015-05-14T03:36:59Z" changeset="31117750" uid="2845963" user="minewman"/>
+	<node id="3516469680" lat="45.5119615" lon="-73.5554953" version="1" timestamp="2015-05-14T03:36:59Z" changeset="31117750" uid="2845963" user="minewman"/>
+	<node id="3516623734" lat="45.5127784" lon="-73.557363" version="1" timestamp="2015-05-14T06:04:27Z" changeset="31120221" uid="2845963" user="minewman"/>
+	<node id="3516712464" lat="45.5126309" lon="-73.557027" version="1" timestamp="2015-05-14T06:51:08Z" changeset="31126669" uid="2845963" user="minewman"/>
+	<node id="3516712468" lat="45.5125955" lon="-73.5569463" version="1" timestamp="2015-05-14T06:51:08Z" changeset="31126669" uid="2845963" user="minewman"/>
+	<node id="3531012583" lat="45.5342571" lon="-73.5553975" version="1" timestamp="2015-05-20T16:36:33Z" changeset="31317376" uid="2845963" user="minewman"/>
+	<node id="3531013376" lat="45.534456" lon="-73.5556824" version="2" timestamp="2015-05-20T16:38:05Z" changeset="31317376" uid="2845963" user="minewman"/>
+	<node id="3533189944" lat="45.5366583" lon="-73.5566302" version="1" timestamp="2015-05-21T11:47:24Z" changeset="31339374" uid="2845963" user="minewman"/>
+	<node id="3533473477" lat="45.5384092" lon="-73.5564332" version="1" timestamp="2015-05-21T13:40:26Z" changeset="31343158" uid="2845963" user="minewman"/>
+	<node id="3533473948" lat="45.5384784" lon="-73.5564012" version="2" timestamp="2015-05-21T13:41:13Z" changeset="31343158" uid="2845963" user="minewman"/>
+	<node id="3538619007" lat="45.4858994" lon="-73.5769235" version="2" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="3538704708" lat="45.4877693" lon="-73.5769593" version="2" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="3538716125" lat="45.4881189" lon="-73.5768909" version="3" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="3539010403" lat="45.4823372" lon="-73.5748768" version="2" timestamp="2016-08-01T10:43:54Z" changeset="41164171" uid="834127" user="kartler175"/>
+	<node id="3539430547" lat="45.4835091" lon="-73.5781923" version="2" timestamp="2015-08-01T20:57:57Z" changeset="33037439" uid="2800396" user="AV31"/>
+	<node id="3552722289" lat="45.4749475" lon="-73.5660565" version="1" timestamp="2015-05-28T03:21:02Z" changeset="31518063" uid="2845963" user="minewman"/>
+	<node id="3552759601" lat="45.4754639" lon="-73.5662583" version="1" timestamp="2015-05-28T04:11:57Z" changeset="31520108" uid="2845963" user="minewman"/>
+	<node id="3553087638" lat="45.4759225" lon="-73.5664851" version="1" timestamp="2015-05-28T06:14:00Z" changeset="31521317" uid="2845963" user="minewman"/>
+	<node id="3554862888" lat="45.4785705" lon="-73.5841362" version="1" timestamp="2015-05-28T19:43:17Z" changeset="31541839" uid="2845963" user="minewman"/>
+	<node id="3555325468" lat="45.4813548" lon="-73.5855106" version="1" timestamp="2015-05-29T04:07:26Z" changeset="31551391" uid="2845963" user="minewman"/>
+	<node id="3556572311" lat="45.4787358" lon="-73.5839356" version="1" timestamp="2015-05-29T16:06:19Z" changeset="31563412" uid="2845963" user="minewman"/>
+	<node id="3557478379" lat="45.4781515" lon="-73.5846999" version="1" timestamp="2015-05-30T05:17:53Z" changeset="31575140" uid="2845963" user="minewman"/>
+	<node id="3557502633" lat="45.4812003" lon="-73.5828605" version="2" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="3559153843" lat="45.4780526" lon="-73.5848537" version="1" timestamp="2015-05-30T18:03:00Z" changeset="31589090" uid="2845963" user="minewman"/>
+	<node id="3559185813" lat="45.4771684" lon="-73.5867275" version="1" timestamp="2015-05-30T18:15:16Z" changeset="31590303" uid="2845963" user="minewman"/>
+	<node id="3559311383" lat="45.4770042" lon="-73.5908679" version="1" timestamp="2015-05-30T19:44:33Z" changeset="31590303" uid="2845963" user="minewman"/>
+	<node id="3559653699" lat="45.476887" lon="-73.5876864" version="1" timestamp="2015-05-30T23:36:20Z" changeset="31594970" uid="2845963" user="minewman"/>
+	<node id="3559660247" lat="45.476788" lon="-73.5887921" version="1" timestamp="2015-05-30T23:41:04Z" changeset="31594970" uid="2845963" user="minewman"/>
+	<node id="3559683144" lat="45.4768203" lon="-73.5895124" version="1" timestamp="2015-05-31T00:03:57Z" changeset="31594970" uid="2845963" user="minewman"/>
+	<node id="3559932795" lat="45.4768946" lon="-73.5903377" version="1" timestamp="2015-05-31T02:31:02Z" changeset="31596799" uid="2845963" user="minewman"/>
+	<node id="3603637368" lat="45.5300028" lon="-73.5926196" version="2" timestamp="2017-03-17T01:33:47Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="3603715407" lat="45.5294833" lon="-73.5914224" version="2" timestamp="2017-03-17T01:33:47Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="3604461803" lat="45.5274503" lon="-73.5869708" version="3" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="3604461808" lat="45.5269945" lon="-73.586212" version="3" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="3608685883" lat="45.5240037" lon="-73.5798713" version="1" timestamp="2015-06-21T11:27:58Z" changeset="32109606" uid="2845963" user="minewman"/>
+	<node id="3630313039" lat="45.4736524" lon="-73.6051824" version="1" timestamp="2015-07-02T03:51:27Z" changeset="32345297" uid="2910183" user="Louis Granger"/>
+	<node id="3658575069" lat="45.5487511" lon="-73.5507207" version="1" timestamp="2015-07-20T08:13:07Z" changeset="32745196" uid="2845963" user="minewman"/>
+	<node id="3658577228" lat="45.5487266" lon="-73.5507162" version="1" timestamp="2015-07-20T08:11:57Z" changeset="32745196" uid="2845963" user="minewman"/>
+	<node id="3659100076" lat="45.5535933" lon="-73.5516617" version="1" timestamp="2015-07-20T15:53:07Z" changeset="32756732" uid="2845963" user="minewman"/>
+	<node id="3659718142" lat="45.5531298" lon="-73.5517736" version="1" timestamp="2015-07-21T06:22:13Z" changeset="32768700" uid="2845963" user="minewman"/>
+	<node id="3676828784" lat="45.4827568" lon="-73.5799317" version="3" timestamp="2017-12-22T21:20:04Z" changeset="54850623" uid="18069" user="Claudius Henrichs">
+		<tag k="name" v="Lionel-Groulx"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="3676828785" lat="45.4829871" lon="-73.5793737" version="1" timestamp="2015-08-01T20:57:56Z" changeset="33037439" uid="2800396" user="AV31"/>
+	<node id="3676830325" lat="45.4837599" lon="-73.5774217" version="2" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="3676830326" lat="45.4836106" lon="-73.5784726" version="1" timestamp="2015-08-01T20:59:46Z" changeset="33037470" uid="2800396" user="AV31"/>
+	<node id="3676830327" lat="45.4837554" lon="-73.5777963" version="2" timestamp="2016-03-15T19:50:52Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="3687831905" lat="45.5475449" lon="-73.607185" version="1" timestamp="2015-08-09T09:40:15Z" changeset="33214576" uid="2845963" user="minewman"/>
+	<node id="3688789483" lat="45.5457365" lon="-73.6375463" version="1" timestamp="2015-08-10T04:27:35Z" changeset="33229715" uid="2845963" user="minewman"/>
+	<node id="3689147402" lat="45.5300117" lon="-73.6247195" version="3" timestamp="2016-11-25T10:29:01Z" changeset="43940861" uid="4667606" user="manuelab_telenav"/>
+	<node id="3690601961" lat="45.5299314" lon="-73.6247647" version="2" timestamp="2016-06-16T01:03:07Z" changeset="40050646" uid="2567631" user="Martin868"/>
+	<node id="3716383936" lat="45.4499184" lon="-73.5963917" version="2" timestamp="2017-01-26T01:33:26Z" changeset="45495995" uid="5013961" user="Qactuar"/>
+	<node id="3872589602" lat="45.5198115" lon="-73.6145717" version="1" timestamp="2015-12-02T10:36:38Z" changeset="35703077" uid="2845963" user="minewman"/>
+	<node id="3888484148" lat="45.5321056" lon="-73.5985612" version="2" timestamp="2017-03-17T01:33:47Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="3898452922" lat="45.5121599" lon="-73.5559596" version="2" timestamp="2015-12-18T15:15:28Z" changeset="36029778" uid="307128" user="Allanot Nicolas"/>
+	<node id="3898452923" lat="45.5122368" lon="-73.5561397" version="2" timestamp="2015-12-18T15:15:28Z" changeset="36029778" uid="307128" user="Allanot Nicolas"/>
+	<node id="3922825162" lat="45.4977426" lon="-73.622539" version="2" timestamp="2016-06-08T02:19:23Z" changeset="39874733" uid="2567631" user="Martin868"/>
+	<node id="3939140679" lat="45.4959035" lon="-73.6239206" version="1" timestamp="2016-01-11T08:07:22Z" changeset="36497370" uid="2845963" user="minewman"/>
+	<node id="3940901300" lat="45.5589262" lon="-73.6007131" version="1" timestamp="2016-01-12T04:39:25Z" changeset="36518146" uid="2697733" user="Gizmot"/>
+	<node id="3940901301" lat="45.5595804" lon="-73.6001681" version="1" timestamp="2016-01-12T04:39:25Z" changeset="36518146" uid="2697733" user="Gizmot"/>
+	<node id="3956583415" lat="45.4829373" lon="-73.626558" version="1" timestamp="2016-01-20T12:31:28Z" changeset="36699674" uid="2845963" user="minewman"/>
+	<node id="3982858744" lat="45.479109" lon="-73.61813" version="1" timestamp="2016-02-01T20:13:15Z" changeset="36944830" uid="2845963" user="minewman"/>
+	<node id="4015309295" lat="45.4980801" lon="-73.5773689" version="2" timestamp="2016-02-24T22:21:26Z" changeset="37423384" uid="3633084" user="Ozvelpoon"/>
+	<node id="4015309298" lat="45.497968" lon="-73.5774658" version="1" timestamp="2016-02-19T20:24:22Z" changeset="37317172" uid="3640271" user="lsjlewis"/>
+	<node id="4024345299" lat="45.4946299" lon="-73.5806179" version="1" timestamp="2016-02-24T21:49:44Z" changeset="37422402" uid="3656690" user="li_char"/>
+	<node id="4035264389" lat="45.4979349" lon="-73.5774969" version="1" timestamp="2016-03-01T19:11:20Z" changeset="37551607" uid="3642365" user="Michael_Dorado"/>
+	<node id="4062190944" lat="45.4812985" lon="-73.5825153" version="1" timestamp="2016-03-15T19:50:51Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="4062190945" lat="45.4811112" lon="-73.5844953" version="1" timestamp="2016-03-15T19:50:51Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="4062190947" lat="45.4848803" lon="-73.5771088" version="1" timestamp="2016-03-15T19:50:51Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="4062190954" lat="45.488535" lon="-73.5767364" version="1" timestamp="2016-03-15T19:50:51Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="4062190957" lat="45.4912036" lon="-73.5752107" version="1" timestamp="2016-03-15T19:50:51Z" changeset="37854081" uid="2800396" user="AV31"/>
+	<node id="4371588154" lat="45.5415623" lon="-73.6228362" version="2" timestamp="2016-11-25T06:53:50Z" changeset="43937581" uid="4667606" user="manuelab_telenav"/>
+	<node id="4371588178" lat="45.5424206" lon="-73.6258159" version="1" timestamp="2016-08-28T16:11:56Z" changeset="41758996" uid="690266" user="ptaff"/>
+	<node id="4567836869" lat="45.4597325" lon="-73.5798127" version="1" timestamp="2016-12-23T00:38:40Z" changeset="44607412" uid="5008480" user="Artie235"/>
+	<node id="4687077901" lat="45.4900902" lon="-73.5857971" version="1" timestamp="2017-02-15T15:26:31Z" changeset="46109682" uid="4870032" user="andreis_telenav"/>
+	<node id="4691035209" lat="45.4928215" lon="-73.5735375" version="1" timestamp="2017-02-17T18:30:36Z" changeset="46172835" uid="5323622" user="b_brunen"/>
+	<node id="4711812547" lat="45.4987793" lon="-73.5767091" version="1" timestamp="2017-03-01T14:50:29Z" changeset="46496257" uid="5323676" user="ZenabJb"/>
+	<node id="4720625918" lat="45.5971494" lon="-73.53498" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625919" lat="45.5929433" lon="-73.5375155" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625920" lat="45.5915622" lon="-73.5379624" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625921" lat="45.5927154" lon="-73.5376022" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625922" lat="45.591838" lon="-73.5378475" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625925" lat="45.5779974" lon="-73.5459592" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625926" lat="45.5799615" lon="-73.5448455" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625927" lat="45.5774044" lon="-73.5463376" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625928" lat="45.5681791" lon="-73.5463125" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625929" lat="45.5717518" lon="-73.5490367" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625930" lat="45.5701501" lon="-73.5480642" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625931" lat="45.561759" lon="-73.5468584" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625932" lat="45.5625025" lon="-73.546125" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625933" lat="45.5631078" lon="-73.5456055" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625934" lat="45.5673361" lon="-73.545716" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4720625935" lat="45.5650478" lon="-73.5447753" version="1" timestamp="2017-03-06T16:27:43Z" changeset="46628226" uid="2800396" user="AV31"/>
+	<node id="4739063703" lat="45.5301934" lon="-73.5930218" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063704" lat="45.5303752" lon="-73.5935287" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063705" lat="45.5305187" lon="-73.5940235" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063706" lat="45.5306167" lon="-73.5944265" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063707" lat="45.5311993" lon="-73.5964626" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063708" lat="45.5309982" lon="-73.5958791" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063709" lat="45.5308676" lon="-73.5954961" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063710" lat="45.5307609" lon="-73.595149" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063711" lat="45.5306888" lon="-73.594836" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739063712" lat="45.530649" lon="-73.5946044" version="1" timestamp="2017-03-17T01:33:43Z" changeset="46914811" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064123" lat="45.5259126" lon="-73.5841146" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064124" lat="45.5263283" lon="-73.585028" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064125" lat="45.5264432" lon="-73.5852845" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064126" lat="45.5265993" lon="-73.5856108" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064127" lat="45.5267672" lon="-73.5858704" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064128" lat="45.5266965" lon="-73.5857607" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064129" lat="45.5268657" lon="-73.5860103" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064130" lat="45.5264031" lon="-73.585195" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739064131" lat="45.5265117" lon="-73.5854372" version="2" timestamp="2017-03-17T14:00:05Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739827169" lat="45.5271119" lon="-73.5864003" version="1" timestamp="2017-03-17T14:00:04Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739827170" lat="45.5269237" lon="-73.5861048" version="1" timestamp="2017-03-17T14:00:04Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739827171" lat="45.5273486" lon="-73.5867781" version="1" timestamp="2017-03-17T14:00:04Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="4739827172" lat="45.5272395" lon="-73.5865966" version="1" timestamp="2017-03-17T14:00:04Z" changeset="46929013" uid="1750383" user="Léo Frachet"/>
+	<node id="5225077116" lat="45.5084157" lon="-73.6729484" version="2" timestamp="2017-11-12T19:32:35Z" changeset="53721865" uid="2567631" user="Martin868">
+		<tag k="name" v="Du Collège"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="public_transport" v="station"/>
+		<tag k="railway" v="station"/>
+		<tag k="station" v="subway"/>
+		<tag k="wikidata" v="Q1262350"/>
+		<tag k="wikipedia" v="en:Du Collège station"/>
+	</node>
+	<node id="5228487325" lat="45.4853465" lon="-73.6279153" version="1" timestamp="2017-11-14T16:18:05Z" changeset="53775815" uid="290271" user="Zverik">
+		<tag k="name" v="Snowdon"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="5228487326" lat="45.5149459" lon="-73.5613355" version="2" timestamp="2018-01-10T01:44:18Z" changeset="55309008" uid="7435861" user="uptrans">
+		<tag k="name" v="Berri-UQAM - Green Line station"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="5228487327" lat="45.5157573" lon="-73.5617792" version="1" timestamp="2017-11-14T16:18:05Z" changeset="53775815" uid="290271" user="Zverik">
+		<tag k="name" v="Berri-UQAM"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="5228487328" lat="45.5392329" lon="-73.6138264" version="2" timestamp="2018-01-10T01:42:04Z" changeset="55308980" uid="7435861" user="uptrans">
+		<tag k="name" v="Jean-Talon"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="5228487329" lat="45.5394972" lon="-73.6133534" version="1" timestamp="2017-11-14T16:18:06Z" changeset="53775815" uid="290271" user="Zverik">
+		<tag k="name" v="Jean-Talon"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<node id="5258853839" lat="45.4949933" lon="-73.5709676" version="3" timestamp="2018-01-25T07:13:05Z" changeset="55732361" uid="7496544" user="cantor34">
+		<tag k="addr:city" v="Montréal"/>
+		<tag k="addr:country" v="CA"/>
+		<tag k="addr:housenumber" v="955"/>
+		<tag k="addr:province" v="QC"/>
+		<tag k="addr:street" v="Rue Lucien-L&#39;Allier"/>
+		<tag k="name" v="Lucien L&#39;Allier"/>
+		<tag k="operator" v="Société de transport de Montréal"/>
+		<tag k="phone" v="+1 514 786 4636"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="railway" v="stop"/>
+		<tag k="station" v="subway"/>
+		<tag k="subway" v="yes"/>
+		<tag k="train" v="yes"/>
+		<tag k="website" v="http://www.stm.info/"/>
+	</node>
+	<node id="5294365338" lat="45.5102767" lon="-73.5362553" version="1" timestamp="2017-12-19T19:36:29Z" changeset="54768862" uid="2800396" user="AV31"/>
+	<node id="5330993593" lat="45.4821869" lon="-73.5808056" version="1" timestamp="2018-01-10T10:43:13Z" changeset="55318603" uid="290271" user="Zverik">
+		<tag k="name" v="Lionel-Groulx"/>
+		<tag k="public_transport" v="stop_position"/>
+		<tag k="subway" v="yes"/>
+	</node>
+	<way id="20233474" version="123" timestamp="2018-01-25T07:13:06Z" changeset="55732361" uid="7496544" user="cantor34">
+		<nd ref="437811718"/>
+		<nd ref="5225077116"/>
+		<nd ref="3313314964"/>
+		<nd ref="437811726"/>
+		<nd ref="437811729"/>
+		<nd ref="437811732"/>
+		<nd ref="437811737"/>
+		<nd ref="437811740"/>
+		<nd ref="437811742"/>
+		<nd ref="437811746"/>
+		<nd ref="437811748"/>
+		<nd ref="437811750"/>
+		<nd ref="437811753"/>
+		<nd ref="437811754"/>
+		<nd ref="437811756"/>
+		<nd ref="437811758"/>
+		<nd ref="437811760"/>
+		<nd ref="437811762"/>
+		<nd ref="437811764"/>
+		<nd ref="437811769"/>
+		<nd ref="2151301396"/>
+		<nd ref="437811771"/>
+		<nd ref="437811772"/>
+		<nd ref="437811773"/>
+		<nd ref="437811774"/>
+		<nd ref="437811775"/>
+		<nd ref="437811777"/>
+		<nd ref="437811778"/>
+		<nd ref="437811781"/>
+		<nd ref="437811788"/>
+		<nd ref="213590782"/>
+		<nd ref="5228487325"/>
+		<nd ref="437811793"/>
+		<nd ref="437811795"/>
+		<nd ref="437811798"/>
+		<nd ref="437811800"/>
+		<nd ref="3956583415"/>
+		<nd ref="437811802"/>
+		<nd ref="437811804"/>
+		<nd ref="437811806"/>
+		<nd ref="437811809"/>
+		<nd ref="3982858744"/>
+		<nd ref="437811814"/>
+		<nd ref="437811817"/>
+		<nd ref="437811821"/>
+		<nd ref="437811825"/>
+		<nd ref="437811830"/>
+		<nd ref="437811832"/>
+		<nd ref="3630313039"/>
+		<nd ref="437811835"/>
+		<nd ref="437811837"/>
+		<nd ref="437811839"/>
+		<nd ref="437811842"/>
+		<nd ref="3492972659"/>
+		<nd ref="437811847"/>
+		<nd ref="437811849"/>
+		<nd ref="437811851"/>
+		<nd ref="3492954116"/>
+		<nd ref="1510041305"/>
+		<nd ref="437811853"/>
+		<nd ref="3493230462"/>
+		<nd ref="437811855"/>
+		<nd ref="3493230456"/>
+		<nd ref="3493230440"/>
+		<nd ref="437811857"/>
+		<nd ref="437811859"/>
+		<nd ref="437811860"/>
+		<nd ref="437811862"/>
+		<nd ref="437811864"/>
+		<nd ref="437811868"/>
+		<nd ref="437811869"/>
+		<nd ref="437811871"/>
+		<nd ref="3559311383"/>
+		<nd ref="437811873"/>
+		<nd ref="3559932795"/>
+		<nd ref="437811875"/>
+		<nd ref="3559683144"/>
+		<nd ref="437811877"/>
+		<nd ref="3559660247"/>
+		<nd ref="437811879"/>
+		<nd ref="3559653699"/>
+		<nd ref="437811882"/>
+		<nd ref="3559185813"/>
+		<nd ref="437811884"/>
+		<nd ref="1307181336"/>
+		<nd ref="437811888"/>
+		<nd ref="3559153843"/>
+		<nd ref="3557478379"/>
+		<nd ref="437811894"/>
+		<nd ref="3554862888"/>
+		<nd ref="3556572311"/>
+		<nd ref="437811896"/>
+		<nd ref="437811897"/>
+		<nd ref="437811899"/>
+		<nd ref="1038439032"/>
+		<nd ref="437811901"/>
+		<nd ref="437670450"/>
+		<nd ref="3676828785"/>
+		<nd ref="437811905"/>
+		<nd ref="3539430547"/>
+		<nd ref="437811907"/>
+		<nd ref="437811908"/>
+		<nd ref="4062190947"/>
+		<nd ref="437811911"/>
+		<nd ref="437811915"/>
+		<nd ref="3538619007"/>
+		<nd ref="437811917"/>
+		<nd ref="437811919"/>
+		<nd ref="437811921"/>
+		<nd ref="3538704708"/>
+		<nd ref="3538716125"/>
+		<nd ref="4062190954"/>
+		<nd ref="437811924"/>
+		<nd ref="437811927"/>
+		<nd ref="437811931"/>
+		<nd ref="437811935"/>
+		<nd ref="4062190957"/>
+		<nd ref="437811938"/>
+		<nd ref="437811940"/>
+		<nd ref="437811942"/>
+		<nd ref="4691035209"/>
+		<nd ref="5258853839"/>
+		<nd ref="437811946"/>
+		<nd ref="437811948"/>
+		<nd ref="437811950"/>
+		<nd ref="437808230"/>
+		<nd ref="437811954"/>
+		<nd ref="1191042143"/>
+		<nd ref="437811958"/>
+		<nd ref="1191042139"/>
+		<nd ref="437811960"/>
+		<nd ref="1191042138"/>
+		<nd ref="437811961"/>
+		<nd ref="1191042140"/>
+		<nd ref="437811963"/>
+		<nd ref="438843513"/>
+		<nd ref="5228487327"/>
+		<nd ref="437811967"/>
+		<nd ref="437811969"/>
+		<nd ref="3608685883"/>
+		<nd ref="437811971"/>
+		<nd ref="4739064123"/>
+		<nd ref="4739064124"/>
+		<nd ref="4739064130"/>
+		<nd ref="4739064125"/>
+		<nd ref="4739064131"/>
+		<nd ref="4739064126"/>
+		<nd ref="4739064128"/>
+		<nd ref="4739064127"/>
+		<nd ref="4739064129"/>
+		<nd ref="4739827170"/>
+		<nd ref="3604461808"/>
+		<nd ref="4739827169"/>
+		<nd ref="4739827172"/>
+		<nd ref="4739827171"/>
+		<nd ref="3604461803"/>
+		<tag k="electrified" v="rail"/>
+		<tag k="frequency" v="0"/>
+		<tag k="gauge" v="1435"/>
+		<tag k="layer" v="-2"/>
+		<tag k="name" v="Ligne Orange"/>
+		<tag k="name:en" v="Orange Line"/>
+		<tag k="network" v="STM"/>
+		<tag k="railway" v="subway"/>
+		<tag k="ref" v="2"/>
+		<tag k="tunnel" v="yes"/>
+		<tag k="voltage" v="750"/>
+	</way>
+	<way id="20426407" version="35" timestamp="2017-12-19T19:36:29Z" changeset="54768862" uid="2800396" user="AV31">
+		<nd ref="438843513"/>
+		<nd ref="300158980"/>
+		<nd ref="300158981"/>
+		<nd ref="217993542"/>
+		<nd ref="3516469676"/>
+		<nd ref="3516623734"/>
+		<nd ref="3516712464"/>
+		<nd ref="3516712468"/>
+		<nd ref="3516469679"/>
+		<nd ref="3898452923"/>
+		<nd ref="3898452922"/>
+		<nd ref="3516469680"/>
+		<nd ref="3515974080"/>
+		<nd ref="3515974084"/>
+		<nd ref="3483395462"/>
+		<nd ref="3483389317"/>
+		<nd ref="217993546"/>
+		<nd ref="217993550"/>
+		<nd ref="217993555"/>
+		<nd ref="217993558"/>
+		<nd ref="217993596"/>
+		<nd ref="217993562"/>
+		<nd ref="217993566"/>
+		<nd ref="5294365338"/>
+		<nd ref="26233453"/>
+		<nd ref="217993589"/>
+		<nd ref="217993593"/>
+		<nd ref="217993584"/>
+		<nd ref="217993588"/>
+		<nd ref="217993579"/>
+		<nd ref="217993575"/>
+		<nd ref="1299955161"/>
+		<tag k="electrified" v="rail"/>
+		<tag k="frequency" v="0"/>
+		<tag k="gauge" v="1435"/>
+		<tag k="history" v="Retrieved from v9"/>
+		<tag k="layer" v="-4"/>
+		<tag k="name" v="Ligne jaune"/>
+		<tag k="name:en" v="Yellow Line"/>
+		<tag k="network" v="STM"/>
+		<tag k="railway" v="subway"/>
+		<tag k="ref" v="4"/>
+		<tag k="tunnel" v="yes"/>
+		<tag k="voltage" v="750"/>
+	</way>
+	<way id="66092957" version="28" timestamp="2017-11-14T16:18:10Z" changeset="53775815" uid="290271" user="Zverik">
+		<nd ref="218271645"/>
+		<nd ref="3940901301"/>
+		<nd ref="3940901300"/>
+		<nd ref="218271640"/>
+		<nd ref="218271630"/>
+		<nd ref="218271582"/>
+		<nd ref="218271560"/>
+		<nd ref="218271556"/>
+		<nd ref="218271551"/>
+		<nd ref="218271548"/>
+		<nd ref="218271544"/>
+		<nd ref="218271543"/>
+		<nd ref="214052280"/>
+		<nd ref="3687831905"/>
+		<nd ref="214052275"/>
+		<nd ref="214052273"/>
+		<nd ref="5228487329"/>
+		<nd ref="437811993"/>
+		<nd ref="214052266"/>
+		<nd ref="214052255"/>
+		<nd ref="2106373199"/>
+		<nd ref="214052262"/>
+		<nd ref="1952957817"/>
+		<nd ref="1952957736"/>
+		<nd ref="214052258"/>
+		<nd ref="214052252"/>
+		<nd ref="3689147402"/>
+		<nd ref="3690601961"/>
+		<nd ref="214052248"/>
+		<nd ref="214052240"/>
+		<nd ref="214052235"/>
+		<nd ref="214052233"/>
+		<nd ref="214052230"/>
+		<nd ref="214052245"/>
+		<nd ref="214042699"/>
+		<nd ref="214042695"/>
+		<nd ref="1765620890"/>
+		<nd ref="3872589602"/>
+		<nd ref="1765620888"/>
+		<nd ref="1765620886"/>
+		<nd ref="1765620885"/>
+		<nd ref="1765620883"/>
+		<nd ref="214042692"/>
+		<nd ref="214042677"/>
+		<nd ref="214042669"/>
+		<nd ref="214042665"/>
+		<nd ref="214042661"/>
+		<nd ref="214042655"/>
+		<nd ref="213656965"/>
+		<nd ref="213656978"/>
+		<nd ref="213656984"/>
+		<nd ref="213656986"/>
+		<nd ref="213656974"/>
+		<nd ref="29482323"/>
+		<nd ref="3922825162"/>
+		<nd ref="213481727"/>
+		<nd ref="3939140679"/>
+		<nd ref="213613395"/>
+		<nd ref="213613389"/>
+		<nd ref="213613384"/>
+		<nd ref="213590782"/>
+		<tag k="electrified" v="rail"/>
+		<tag k="frequency" v="0"/>
+		<tag k="gauge" v="1435"/>
+		<tag k="lanes" v="2"/>
+		<tag k="layer" v="-1"/>
+		<tag k="name" v="Ligne bleue"/>
+		<tag k="name:en" v="Blue Line"/>
+		<tag k="network" v="STM"/>
+		<tag k="railway" v="subway"/>
+		<tag k="ref" v="5"/>
+		<tag k="surface" v="asphalt"/>
+		<tag k="tunnel" v="yes"/>
+		<tag k="voltage" v="750"/>
+	</way>
+	<way id="164831271" version="56" timestamp="2018-01-10T10:43:14Z" changeset="55318603" uid="290271" user="Zverik">
+		<nd ref="4720625918"/>
+		<nd ref="246656713"/>
+		<nd ref="4720625919"/>
+		<nd ref="4720625921"/>
+		<nd ref="4720625922"/>
+		<nd ref="4720625920"/>
+		<nd ref="246656708"/>
+		<nd ref="246656707"/>
+		<nd ref="4720625926"/>
+		<nd ref="4720625925"/>
+		<nd ref="4720625927"/>
+		<nd ref="246655684"/>
+		<nd ref="246654580"/>
+		<nd ref="246654579"/>
+		<nd ref="246654578"/>
+		<nd ref="4720625929"/>
+		<nd ref="246654577"/>
+		<nd ref="4720625930"/>
+		<nd ref="246654576"/>
+		<nd ref="4720625928"/>
+		<nd ref="4720625934"/>
+		<nd ref="246654575"/>
+		<nd ref="246654573"/>
+		<nd ref="4720625935"/>
+		<nd ref="246654572"/>
+		<nd ref="4720625933"/>
+		<nd ref="4720625932"/>
+		<nd ref="4720625931"/>
+		<nd ref="26232890"/>
+		<nd ref="218356400"/>
+		<nd ref="218356399"/>
+		<nd ref="1244643973"/>
+		<nd ref="1244643971"/>
+		<nd ref="1244643972"/>
+		<nd ref="218356392"/>
+		<nd ref="264271702"/>
+		<nd ref="3659100076"/>
+		<nd ref="218356387"/>
+		<nd ref="3659718142"/>
+		<nd ref="218356384"/>
+		<nd ref="218356380"/>
+		<nd ref="218356375"/>
+		<nd ref="218356370"/>
+		<nd ref="218356363"/>
+		<nd ref="3658575069"/>
+		<nd ref="3658577228"/>
+		<nd ref="218356358"/>
+		<nd ref="218356356"/>
+		<nd ref="218356349"/>
+		<nd ref="218356354"/>
+		<nd ref="218356337"/>
+		<nd ref="218356332"/>
+		<nd ref="218283902"/>
+		<nd ref="976529040"/>
+		<nd ref="218283897"/>
+		<nd ref="3533473948"/>
+		<nd ref="3533473477"/>
+		<nd ref="218283892"/>
+		<nd ref="218283887"/>
+		<nd ref="3533189944"/>
+		<nd ref="218283883"/>
+		<nd ref="218283877"/>
+		<nd ref="218283874"/>
+		<nd ref="3531013376"/>
+		<nd ref="218283869"/>
+		<nd ref="3531012583"/>
+		<nd ref="218283867"/>
+		<nd ref="218283857"/>
+		<nd ref="218283833"/>
+		<nd ref="218283836"/>
+		<nd ref="218283828"/>
+		<nd ref="218283863"/>
+		<nd ref="218283841"/>
+		<nd ref="218283853"/>
+		<nd ref="218283826"/>
+		<nd ref="218283847"/>
+		<nd ref="218283822"/>
+		<nd ref="213403939"/>
+		<nd ref="3488024524"/>
+		<nd ref="213403941"/>
+		<nd ref="208950082"/>
+		<nd ref="438843513"/>
+		<nd ref="5228487326"/>
+		<nd ref="208949408"/>
+		<nd ref="3381354366"/>
+		<nd ref="208949406"/>
+		<nd ref="208949393"/>
+		<nd ref="208949396"/>
+		<nd ref="208949404"/>
+		<nd ref="208949400"/>
+		<nd ref="208949390"/>
+		<nd ref="208949389"/>
+		<nd ref="208949385"/>
+		<nd ref="208949381"/>
+		<nd ref="4711812547"/>
+		<nd ref="4015309295"/>
+		<nd ref="4015309298"/>
+		<nd ref="4035264389"/>
+		<nd ref="208949380"/>
+		<nd ref="208949376"/>
+		<nd ref="208949374"/>
+		<nd ref="4024345299"/>
+		<nd ref="3503150012"/>
+		<nd ref="4687077901"/>
+		<nd ref="213329687"/>
+		<nd ref="3491302569"/>
+		<nd ref="3491286971"/>
+		<nd ref="561032789"/>
+		<nd ref="213329694"/>
+		<nd ref="213329690"/>
+		<nd ref="3500101541"/>
+		<nd ref="213329697"/>
+		<nd ref="3500134056"/>
+		<nd ref="3500134279"/>
+		<nd ref="213329700"/>
+		<nd ref="213329703"/>
+		<nd ref="213329704"/>
+		<nd ref="213329708"/>
+		<nd ref="213329725"/>
+		<nd ref="213329730"/>
+		<nd ref="213329733"/>
+		<nd ref="3555325468"/>
+		<nd ref="213329735"/>
+		<nd ref="4062190945"/>
+		<nd ref="213329739"/>
+		<nd ref="213329742"/>
+		<nd ref="3557502633"/>
+		<nd ref="4062190944"/>
+		<nd ref="213329743"/>
+		<nd ref="213329747"/>
+		<nd ref="5330993593"/>
+		<nd ref="3676828784"/>
+		<nd ref="213329761"/>
+		<nd ref="3676830326"/>
+		<nd ref="213329764"/>
+		<nd ref="3676830327"/>
+		<nd ref="3676830325"/>
+		<nd ref="213329766"/>
+		<nd ref="213329769"/>
+		<nd ref="213329774"/>
+		<nd ref="213329779"/>
+		<nd ref="213331943"/>
+		<nd ref="3539010403"/>
+		<nd ref="213331946"/>
+		<nd ref="213331949"/>
+		<nd ref="213331953"/>
+		<nd ref="565306948"/>
+		<nd ref="3553087638"/>
+		<nd ref="3552759601"/>
+		<nd ref="311564385"/>
+		<nd ref="3552722289"/>
+		<nd ref="311564377"/>
+		<nd ref="1701365155"/>
+		<nd ref="311564344"/>
+		<nd ref="1764309503"/>
+		<nd ref="2496687778"/>
+		<nd ref="311564349"/>
+		<nd ref="311564354"/>
+		<nd ref="311564358"/>
+		<nd ref="311564362"/>
+		<nd ref="1243290589"/>
+		<nd ref="1243290600"/>
+		<nd ref="1243290590"/>
+		<nd ref="1243290592"/>
+		<nd ref="2471652365"/>
+		<nd ref="4567836869"/>
+		<nd ref="311564405"/>
+		<nd ref="311564482"/>
+		<nd ref="311564410"/>
+		<nd ref="1243290588"/>
+		<nd ref="311564473"/>
+		<nd ref="1243290573"/>
+		<nd ref="1243290584"/>
+		<nd ref="1243290561"/>
+		<nd ref="225689808"/>
+		<nd ref="1243290596"/>
+		<nd ref="311564423"/>
+		<nd ref="311564426"/>
+		<nd ref="311564489"/>
+		<nd ref="311564430"/>
+		<nd ref="311564433"/>
+		<nd ref="225690774"/>
+		<nd ref="311564443"/>
+		<nd ref="3716383936"/>
+		<nd ref="311564447"/>
+		<nd ref="311564453"/>
+		<nd ref="311564460"/>
+		<nd ref="1104599383"/>
+		<nd ref="1104599505"/>
+		<nd ref="1764309497"/>
+		<nd ref="1764309496"/>
+		<nd ref="1764309495"/>
+		<nd ref="311564466"/>
+		<tag k="electrified" v="rail"/>
+		<tag k="frequency" v="0"/>
+		<tag k="gauge" v="1435"/>
+		<tag k="history" v="Retrieved from v15"/>
+		<tag k="layer" v="-3"/>
+		<tag k="name" v="Ligne verte"/>
+		<tag k="name:en" v="Green line"/>
+		<tag k="network" v="STM"/>
+		<tag k="railway" v="subway"/>
+		<tag k="ref" v="1"/>
+		<tag k="tunnel" v="yes"/>
+		<tag k="voltage" v="750"/>
+	</way>
+	<way id="480956325" version="2" timestamp="2017-11-14T16:18:11Z" changeset="53775815" uid="290271" user="Zverik">
+		<nd ref="3604461803"/>
+		<nd ref="437811977"/>
+		<nd ref="437811980"/>
+		<nd ref="3603715407"/>
+		<nd ref="3603637368"/>
+		<nd ref="4739063703"/>
+		<nd ref="4739063704"/>
+		<nd ref="4739063705"/>
+		<nd ref="4739063706"/>
+		<nd ref="4739063712"/>
+		<nd ref="4739063711"/>
+		<nd ref="4739063710"/>
+		<nd ref="4739063709"/>
+		<nd ref="4739063708"/>
+		<nd ref="4739063707"/>
+		<nd ref="437811982"/>
+		<nd ref="437811986"/>
+		<nd ref="3888484148"/>
+		<nd ref="437811988"/>
+		<nd ref="437811991"/>
+		<nd ref="437811993"/>
+		<nd ref="5228487328"/>
+		<nd ref="437811997"/>
+		<nd ref="4371588154"/>
+		<nd ref="4371588178"/>
+		<nd ref="2183756831"/>
+		<nd ref="2295377454"/>
+		<nd ref="2295377453"/>
+		<nd ref="437812001"/>
+		<nd ref="2295381846"/>
+		<nd ref="2295381847"/>
+		<nd ref="3688789483"/>
+		<nd ref="437812003"/>
+		<nd ref="437756062"/>
+		<tag k="electrified" v="rail"/>
+		<tag k="frequency" v="0"/>
+		<tag k="gauge" v="1435"/>
+		<tag k="layer" v="-2"/>
+		<tag k="name" v="Ligne Orange"/>
+		<tag k="name:en" v="Orange Line"/>
+		<tag k="network" v="STM"/>
+		<tag k="railway" v="subway"/>
+		<tag k="ref" v="2"/>
+		<tag k="tunnel" v="yes"/>
+		<tag k="voltage" v="750"/>
+	</way>
+</osm>

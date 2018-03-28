@@ -1,0 +1,101 @@
+RANK,PORT,COUNTRY,TEUs
+1,Shanghai,China,36516
+2,Singapore,Singapore,30922
+3,Shenzhen,China,24142
+4,Ningbo,China,20636
+5,Hong Kong,China,20073
+6,Busan,South Korea,19469
+7,Qingdao,China,17323
+8,Guangzhou,China,17097
+9,Dubai,United Arab Emirates,15585
+10,Tianjin,China,13881
+11,Rotterdam,Netherlands,12235
+12,Port Klang,Malaysia,11887
+13,Kaohsiung,Taiwan,10264
+14,Antwerp,Belgium,9654
+15,Dalian,China,9591
+16,Xiamen,China,9215
+17,Hamburg,Germany,8821
+18,Tanjung Pelepas,Malaysia,8797
+19,Los Angeles,United States,8160
+20,Long Beach,United States,7192
+21,Laem Chabang,Thailand,6780
+22,Saigon,Vietnam,6556
+23,New York,United States,6372
+24,Bremen,Germany,5547
+25,Jeddah,Saudi Arabia,5417
+26,Tanjung Priok,Indonesia,5154
+27,Saigon,Vietnam,5026
+28,Valencia,Spain,4615
+29,Algecira,Spain,4516
+30,Jawaharlal Nehru,India,4492
+31,Khor Fakkan,United Arab Emirates,4414
+32,Tokyo,Japan,4150
+33,Manila,Philippines,3976
+34,Santos,Brazil,3780
+35,Savannah,United States,3737
+36,Felixstowe,United Kingdom,3676
+37,Seattle,United States,3531
+38,Gioia Tauro,Italy,3512
+39,Piraeus,Greece,3360
+40,Balboa,Panama,3078
+41,Ambarli,Turkey,3062
+42,Vancouver,Canada,3054
+43,Port Said,Egypt,3036
+44,Tanger,Morocco,2971
+45,Yokohama,Japan,2787
+46,Durban,South Africa,2770
+47,Colon ,Panamá,2765
+48,Kobe,Japan,2707
+49,Keelung,Taiwan,2666
+50,Melbourne,Australia,2638
+51,Nagoya,Japan,2631
+52,Cartagena,Colombia,2607
+53,Mina Raysut,Oman,2569
+54,Le Havre,France,2556
+55,Virginia,United States,2549
+56,Manzanillo,Mexico,2458
+57,Inchon,South Korea,2368
+58,Southampton,United Kingdom,2349
+59,Sydney,Australia,2330
+60,Kwangyang,South Korea,2327
+61,Oakland,United States,2278
+62,Genoa,Italy,2243
+63,Dublin,Ireland,2217
+64,Houston,United States,2131
+65,Chittagong,Bangladesh,2025
+66,Charleston,United States,1973
+67,Osaka,Japan,1970
+68,Barcelona,Spain,1965
+69,Karachi,Pakistan,1957
+70,Dammam,Saudi Arabia,1954
+71,Callao,Peru,1900
+72,Manzanillo,Panama,1821
+73,Guayaquil  ,Ecuador ,1765
+74,St. Petersburg,Russia,1715
+75,Bandar Abbas,Iran,1705
+76,Colombo,Sri Lanka,1662
+77,Alexandria,Egypt,1662
+78,Kingston,Jamaica,1575
+79,Chennai,India,1571
+80,Zeebrugge,Belgium,1569
+81,Bangkok,Thailand,1559
+82,Taichung,Taiwan,1447
+83,Montreal,Canada,1446
+84,Mersin,Turkey,1428
+85,Buenos Aires,Argentina,1428
+86,Freeport,Bahamas,1400
+87,Sines,Portugal,1332
+88,Penang,Malaysia,1317
+89,Ashdod,Israel,1307
+90,La Spezia,Italy,1300
+91,Marseilles,France,1220
+92,Haifa,Israel,1215
+93,Honolulu,United States,1213
+94,San Juan,Puerto Rico,1211
+95,Belawan,Indonesia,1197
+96,London,United Kingdom,1185
+97,Brisbane,Australia,1152
+98,Beirut,Lebanon,1130
+99,Guayaquil,Ecuador,1125
+100,Limon,Costa Rica,1106

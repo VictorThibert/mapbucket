@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmfilter 1.4.3">
+	<bounds minlat="45.49224" minlon="-73.58147" maxlat="45.49856" maxlon="-73.57489"/>
+	<node id="237615527" lat="45.4968301" lon="-73.5788241" version="3" timestamp="2008-11-11T15:32:02Z" changeset="736433" uid="77926" user="JeanRob98"/>
+	<node id="237615532" lat="45.4971648" lon="-73.5795744" version="3" timestamp="2011-03-08T04:04:13Z" changeset="7490991" uid="351713" user="tfitzg"/>
+	<node id="237615537" lat="45.4977154" lon="-73.5790372" version="3" timestamp="2011-03-08T04:04:13Z" changeset="7490991" uid="351713" user="tfitzg"/>
+	<node id="237615541" lat="45.4973669" lon="-73.5783071" version="2" timestamp="2008-11-11T15:32:02Z" changeset="736433" uid="77926" user="JeanRob98"/>
+	<node id="237615545" lat="45.4966676" lon="-73.5785655" version="2" timestamp="2011-03-08T03:55:27Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="237615548" lat="45.4972616" lon="-73.578045" version="2" timestamp="2011-03-08T03:55:27Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="237615554" lat="45.4968912" lon="-73.5772806" version="3" timestamp="2014-02-19T02:59:38Z" changeset="20648956" uid="338234" user="konu"/>
+	<node id="237615557" lat="45.4962587" lon="-73.5776898" version="3" timestamp="2014-02-19T02:59:38Z" changeset="20648956" uid="338234" user="konu"/>
+	<node id="1192154182" lat="45.496913" lon="-73.5783306" version="1" timestamp="2011-03-08T03:55:11Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154209" lat="45.4969634" lon="-73.5782783" version="1" timestamp="2011-03-08T03:55:12Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154219" lat="45.4969331" lon="-73.5783742" version="1" timestamp="2011-03-08T03:55:12Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154222" lat="45.4967208" lon="-73.5785834" version="1" timestamp="2011-03-08T03:55:13Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154249" lat="45.4964938" lon="-73.5774572" version="1" timestamp="2011-03-08T03:55:14Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154251" lat="45.4966086" lon="-73.5776882" version="1" timestamp="2011-03-08T03:55:14Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154279" lat="45.4969852" lon="-73.578317" version="1" timestamp="2011-03-08T03:55:15Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154287" lat="45.4966992" lon="-73.5785349" version="1" timestamp="2011-03-08T03:55:16Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154290" lat="45.4966092" lon="-73.5775555" version="1" timestamp="2011-03-08T03:55:16Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1192154436" lat="45.4966522" lon="-73.5776483" version="1" timestamp="2011-03-08T03:55:22Z" changeset="7490969" uid="351713" user="tfitzg"/>
+	<node id="1200671789" lat="45.4971847" lon="-73.5795549" version="1" timestamp="2011-03-13T20:09:51Z" changeset="7549736" uid="351713" user="tfitzg"/>
+	<node id="4020347091" lat="45.4969377" lon="-73.5783054" version="2" timestamp="2016-02-22T19:55:43Z" changeset="37375544" uid="3633117" user="Alize466">
+		<tag k="access" v="no"/>
+		<tag k="addr:housenumber" v="1455"/>
+		<tag k="addr:street" v="Boulevard De Maisonneuve Ouest"/>
+		<tag k="automatic_door" v="yes"/>
+		<tag k="door" v="hinged"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="4020494889" lat="45.4966303" lon="-73.5776683" version="1" timestamp="2016-02-22T20:59:06Z" changeset="37376851" uid="3633117" user="Alize466">
+		<tag k="addr:housenumber" v="1455"/>
+		<tag k="addr:street" v="Boulevard De Maisonneuve Ouest"/>
+		<tag k="automatic_door" v="yes"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="4020494890" lat="45.4969457" lon="-73.577393" version="1" timestamp="2016-02-22T20:59:06Z" changeset="37376851" uid="3633117" user="Alize466">
+		<tag k="addr:housenumber" v="1455"/>
+		<tag k="addr:street" v="Boulevard De Maisonneuve Ouest"/>
+		<tag k="automatic_door" v="yes"/>
+		<tag k="door" v="hinged"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="4020494891" lat="45.49717" lon="-73.577856" version="1" timestamp="2016-02-22T20:59:06Z" changeset="37376851" uid="3633117" user="Alize466">
+		<tag k="addr:housenumber" v="1455"/>
+		<tag k="addr:street" v="Boulevard De Maisonneuve Ouest"/>
+		<tag k="automatic_door" v="yes"/>
+		<tag k="door" v="hinged"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="4023888010" lat="45.4974089" lon="-73.5783952" version="2" timestamp="2016-02-24T17:09:22Z" changeset="37414794" uid="3633075" user="JeffreyLorenzetti">
+		<tag k="addr:housenumber" v="2100"/>
+		<tag k="addr:street" v="Bishop"/>
+		<tag k="automatic_door" v="yes"/>
+		<tag k="door" v="hinged"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="4035248248" lat="45.4970373" lon="-73.5786245" version="1" timestamp="2016-03-01T19:04:38Z" changeset="37550669" uid="3633075" user="JeffreyLorenzetti">
+		<tag k="addr:housenumber" v="1455"/>
+		<tag k="addr:street" v="De Maisonneuve"/>
+		<tag k="automatic_door" v="yes"/>
+		<tag k="door" v="hinged"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="4048549936" lat="45.4964649" lon="-73.5774857" version="1" timestamp="2016-03-08T17:15:43Z" changeset="37690418" uid="926359" user="emorys"/>
+	<node id="4048549938" lat="45.4969031" lon="-73.5773036" version="1" timestamp="2016-03-08T17:15:43Z" changeset="37690418" uid="926359" user="emorys"/>
+	<node id="4048549940" lat="45.4965758" lon="-73.5776222" version="1" timestamp="2016-03-08T17:15:43Z" changeset="37690418" uid="926359" user="emorys"/>
+	<node id="4048549941" lat="45.4966195" lon="-73.5775774" version="1" timestamp="2016-03-08T17:15:43Z" changeset="37690418" uid="926359" user="emorys"/>
+	<node id="4048569326" lat="45.4972443" lon="-73.5780094" version="1" timestamp="2016-03-08T17:22:50Z" changeset="37690418" uid="926359" user="emorys">
+		<tag k="addr:city" v="Montréal"/>
+		<tag k="addr:housenumber" v="1452"/>
+		<tag k="addr:street" v="Rue Bishop"/>
+		<tag k="source" v="NRCan-CanVec-10.0"/>
+	</node>
+	<node id="4062519631" lat="45.4974614" lon="-73.579285" version="1" timestamp="2016-03-15T23:37:26Z" changeset="37858796" uid="926359" user="emorys">
+		<tag k="access" v="exit"/>
+		<tag k="automatic_door" v="no"/>
+		<tag k="door" v="hinged"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="4062521201" lat="45.4971217" lon="-73.5794778" version="3" timestamp="2017-02-11T18:29:51Z" changeset="46004431" uid="926359" user="emorys">
+		<tag k="automatic_door" v="no"/>
+		<tag k="door" v="hinged"/>
+		<tag k="entrance" v="yes"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<way id="22080570" version="13" timestamp="2017-02-11T18:29:51Z" changeset="46004431" uid="926359" user="emorys">
+		<nd ref="237615527"/>
+		<nd ref="4062521201"/>
+		<nd ref="237615532"/>
+		<nd ref="1200671789"/>
+		<nd ref="4062519631"/>
+		<nd ref="237615537"/>
+		<nd ref="4023888010"/>
+		<nd ref="237615541"/>
+		<nd ref="4035248248"/>
+		<nd ref="237615527"/>
+		<tag k="addr:city" v="Montréal"/>
+		<tag k="addr:housenumber" v="1455"/>
+		<tag k="addr:street" v="Boulevard de Maisonneuve Ouest"/>
+		<tag k="building" v="yes"/>
+		<tag k="learning" v="university"/>
+		<tag k="name" v="H - Henry F. Hall Building"/>
+		<tag k="wheelchair" v="yes"/>
+	</way>
+	<way id="22080572" version="11" timestamp="2016-03-08T17:22:53Z" changeset="37690418" uid="926359" user="emorys">
+		<nd ref="237615545"/>
+		<nd ref="1192154287"/>
+		<nd ref="1192154222"/>
+		<nd ref="1192154219"/>
+		<nd ref="1192154182"/>
+		<nd ref="4020347091"/>
+		<nd ref="1192154209"/>
+		<nd ref="1192154279"/>
+		<nd ref="237615548"/>
+		<nd ref="4048569326"/>
+		<nd ref="4020494891"/>
+		<nd ref="4020494890"/>
+		<nd ref="4048549938"/>
+		<nd ref="237615554"/>
+		<nd ref="1192154290"/>
+		<nd ref="4048549941"/>
+		<nd ref="1192154436"/>
+		<nd ref="4020494889"/>
+		<nd ref="1192154251"/>
+		<nd ref="4048549940"/>
+		<nd ref="1192154249"/>
+		<nd ref="4048549936"/>
+		<nd ref="237615557"/>
+		<nd ref="237615545"/>
+		<tag k="addr:city" v="Montréal"/>
+		<tag k="addr:housenumber" v="1400"/>
+		<tag k="addr:street" v="Boulevard de Maisonneuve Ouest"/>
+		<tag k="building" v="yes"/>
+		<tag k="learning" v="university"/>
+		<tag k="name" v="LB - J. W. McConnell Building (Library Building)"/>
+	</way>
+</osm>
