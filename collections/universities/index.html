@@ -14,11 +14,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:700">
     <link rel="stylesheet" type="text/css" href="../../assets/semantic/semantic.css">
 
+    
+
     <style type="text/css">
       #header {
         font-family: 'PT Sans', sans-serif;
         /*padding: 40px;*/
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         padding-top: 20px;
         font-size: 40px;
         color: black;
@@ -32,24 +34,86 @@
         padding-bottom: 100px;
       }
 
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+      }
+
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 100%;
+      }
+
+      #title {
+        font-family: 'PT Sans', sans-serif;
+        position: relative;
+        /*top:70px;*/
+        /*left:40px;*/
+        font-size: 30px;
+      }
+
+      #date {
+        color:#777;
+      }
+
     </style>
 
   </head>
 
   <body class="vsc-initialized">
+
+    <div id="myModal" class="modal">
+      <img class="modal-content" id="img01">
+    </div>
     
     <div id="centerContainer" class="ui main text container">
       <div id="header" class="header">
         <a style="color:black;" href="../..">mapbucket</a>
       </div>
       <div id="holder">
-          <image style="width:100%" src="./images/mtl_labelled.png"></image>
+          <div id="title">Post-secondary Institutions and Affiliates in Montreal</div>
+          <image id="image" style="width:100%" src="./images/mtl_labelled.png"></image>
           <div id="description" class="ui segment">
             <div id="date">2018-03-29</div>
-            Map of land and buildings owned by or affiliated with Montreal's post-secondary institutions. The green institutions indicate Quebec's Cegep schools. More information can be found here.
+            <div id="author">Victor Thibert</div>
+            <br>
+            This is a map of the land and buildings owned by or affiliated with Montreal's post-secondary institutions. Numerous hospitals are part of the CHUM (University de Montreal) and MUHC (McGill University Health Centre) systems. The green institutions indicate Quebec's Cegep schools. More information can be found <a href="https://en.wikipedia.org/wiki/Higher_education_in_Quebec">here</a>. 
+            <br>
+            <br>
+            Data was collected through OpenStreetMap's layer data. A higher resolution and unlabelled version can be found 
+            <a href="./images/mtl_raw.png">here</a>.
+            <br>
+            <br>
+            This map was inspired by Bill Rankin's "College Town" map found on <a href="http://www.radicalcartography.net/index.html?boston_campus">Radical Cartography</a>.
           </div>
         </div>
     </div>
   </body>
+
+  <script type="text/javascript">
+      // Get the modal
+      var modal = document.getElementById('myModal');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('image');
+      var modalImg = document.getElementById("img01");
+      
+      img.onclick = function(){
+        modal.style.display = "block";        
+        modalImg.src = this.src;
+      }
+
+      modalImg.onclick = function() {
+        modal.style.display = "none";
+      }
+
+    </script>
 
 </html>
